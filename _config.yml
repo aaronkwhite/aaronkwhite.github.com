@@ -1,0 +1,27 @@
+auto: true
+markdown: rdiscount
+pygments: true
+
+title: In The Attic
+
+url: http://aaronkwhite.com
+
+permalink: /:year/:month/:day/:title/
+
+author:
+    name: Aaron K. White
+    email: aaron@aaronkwhite.com
+    github: aaronkwhite
+    twitter: aaronkwhite
+    gravatar: http://www.gravatar.com/avatar/a12d1a571d63957f150117f18d87a69f.png
+
+#comments:
+#    provider: disqus
+#    disqus:
+#        short_name: intheatticuk
+
+#analytics:
+#    provider: google 
+#    google: 
+#        tracking_id: 'UA-18015420-1'
+#        domain: 'in-the-attic.com'
