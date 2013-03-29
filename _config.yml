@@ -1,19 +1,21 @@
-auto: true
-markdown: rdiscount
-pygments: true
+safe:       false
+auto:       true
+server:     false
+source:     .
+markdown:   rdiscount
+pygments:   true
 
-title: In The Attic
+title:      Aaron K. White
 
-url: http://aaronkwhite.com
-
-permalink: /:year/:month/:day/:title/
+#url:        http://aaronkwhite.com
+permalink:   /:year/:month/:day/:title/
 
 author:
-    name: Aaron K. White
-    email: aaron@aaronkwhite.com
-    github: aaronkwhite
-    twitter: aaronkwhite
-    gravatar: http://www.gravatar.com/avatar/a12d1a571d63957f150117f18d87a69f.png
+    name:       Aaron K. White
+    email:      aaron@aaronkwhite.com
+    github:     aaronkwhite
+    twitter:    aaronkwhite
+    gravatar:   http://www.gravatar.com/avatar/a12d1a571d63957f150117f18d87a69f.png
 
 #comments:
 #    provider: disqus
