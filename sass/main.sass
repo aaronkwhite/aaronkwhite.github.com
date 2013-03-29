@@ -5,29 +5,7 @@
   padding: 0
   position: relative
 
-html
-  font: 150% / 1.5 'Helvetica Neue', Helvetica, Arial, sans-serif
-
-body
-  background: $greyLight
-  color: $grey
-  display: block
-  margin: 0
-  
-.container
-  margin: 0 auto
-  padding: .5em 1em
-  position: relative
-  max-width: 40em
-
-header
-  text-align: center
-  h4
-    font-weight: normal
-    margin-bottom: .25em
-  .container
-    padding: 1em 1em .25em 1em
-
+// Utilities
 h1
   font-size: 2em
   line-height: 1
@@ -52,3 +30,37 @@ h5
   font-size: .675em
   line-height: 1.25
   margin-bottom: .25em
+
+ul.unstyled, ol.unstyled, ul.inline, ol.inline
+  margin-left: 0
+  list-style: none
+
+ul.inline > li, ol.inline > li
+  display: inline-block
+  *display: inline
+  padding-right: 5px
+  padding-left: 5px
+  *zoom: 1
+
+html
+  font: 150% / 1.5 'Helvetica Neue', Helvetica, Arial, sans-serif
+
+body
+  background: $greyLight
+  color: $grey
+  display: block
+  margin: 0
+  
+.container
+  margin: 0 auto
+  padding: .5em 1em
+  position: relative
+  max-width: 40em
+
+header
+  text-align: center
+  h4
+    font-weight: normal
+    margin-bottom: .25em
+  .container
+    padding: 1em 1em .25em 1em
