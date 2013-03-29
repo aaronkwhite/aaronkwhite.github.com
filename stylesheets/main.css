@@ -8,6 +8,7 @@ html {
 
 body {
   background: #f3f3f3;
+  color: #595959;
   display: block;
   margin: 0; }
 
@@ -15,17 +16,37 @@ body {
   margin: 0 auto;
   padding: 0.5em 1em;
   position: relative;
-  max-width: 48em; }
+  max-width: 40em; }
 
-header .container {
-  padding: 1em 1em 0.25em 1em; }
+header {
+  text-align: center; }
+  header h4 {
+    font-weight: normal;
+    margin-bottom: 0.25em; }
+  header .container {
+    padding: 1em 1em 0.25em 1em; }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   line-height: 1;
-  margin-bottom: 0.35em; }
+  margin-bottom: 0.15em; }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1.425em;
   line-height: 1.25;
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.25em; }
+
+h3 {
+  font-size: 1em;
+  line-height: 1.25;
+  margin-bottom: 0.3em; }
+
+h4 {
+  font-size: 0.875em;
+  line-height: 1.25;
+  margin-bottom: 0.275em; }
+
+h5 {
+  font-size: 0.675em;
+  line-height: 1.25;
+  margin-bottom: 0.25em; }
