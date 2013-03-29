@@ -1,8 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+html {
+  font: 150%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 body {
-  background: #f3f3f3; }
+  background: #f3f3f3;
+  display: block;
+  margin: 0; }
 
 .container {
   margin: 0 auto;
-  padding: 1.5em 1em;
+  padding: 0.75em 1em;
   position: relative;
-  max-width: 34.583em; }
+  max-width: 48em; }
+
+header .container {
+  padding: 1em 1em 0.25em 1em; }
+
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.35em; }
+
+h2 {
+  font-size: 1.25em;
+  line-height: 1.25;
+  margin-bottom: 0.5em; }
