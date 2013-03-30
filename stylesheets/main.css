@@ -3,14 +3,22 @@
   padding: 0;
   position: relative; }
 
+a {
+  color: #595959;
+  text-decoration: none; }
+  a:hover {
+    color: #ff9900; }
+
 h1 {
+  font-family: "ff-tisa-web-pro", serif;
   font-size: 2em;
   line-height: 1;
   margin-bottom: 0.15em; }
 
 h2 {
-  font-size: 1.425em;
-  line-height: 1.25;
+  font-family: "ff-tisa-web-pro", serif;
+  font-size: 1.475em;
+  line-height: 1.575em;
   margin-bottom: 0.25em; }
 
 h3 {
@@ -39,8 +47,12 @@ ul.inline > li, ol.inline > li {
   padding-left: 5px;
   *zoom: 1; }
 
+section {
+  display: block;
+  overflow: hidden; }
+
 html {
-  font: 150%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font: 150%/1.5 "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 body {
   background: #f3f3f3;
@@ -52,12 +64,42 @@ body {
   margin: 0 auto;
   padding: 0.5em 1em;
   position: relative;
-  max-width: 40em; }
+  max-width: 38.583em; }
 
-header {
+#header {
+  margin-bottom: 24px; }
+  #header .site-title {
+    float: left;
+    font-size: 14px;
+    color: #cccccc;
+    padding-top: 20px; }
+  #header .site-nav {
+    float: right; }
+    #header .site-nav ul li {
+      color: #cccccc;
+      font-size: 32px;
+      padding-left: 60px;
+      padding-right: 0; }
+      #header .site-nav ul li a {
+        color: #cccccc; }
+        #header .site-nav ul li a:hover {
+          color: #3299bb; }
+        #header .site-nav ul li a .active {
+          color: #3299bb; }
+
+#tagline h2 {
+  text-align: center;
+  font-size: 2.754em;
+  font-weight: 400; }
+
+#social ul {
+  margin: 0 auto;
   text-align: center; }
-  header h4 {
-    font-weight: normal;
-    margin-bottom: 0.25em; }
-  header .container {
-    padding: 1em 1em 0.25em 1em; }
+  #social ul li {
+    color: #cccccc;
+    font-size: 2.8em;
+    padding: 0.495em; }
+    #social ul li a {
+      color: #cccccc; }
+      #social ul li a:hover {
+        color: #ff9900; }
