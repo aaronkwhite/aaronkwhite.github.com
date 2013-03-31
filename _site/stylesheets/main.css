@@ -22,6 +22,7 @@ h2 {
   margin-bottom: 0.25em; }
 
 h3 {
+  font-family: "ff-tisa-web-pro", serif;
   font-size: 1em;
   line-height: 1.25;
   margin-bottom: 0.3em; }
@@ -52,7 +53,8 @@ section {
   overflow: hidden; }
 
 html {
-  font: 150%/1.5 "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font: 150%/1.5 "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400; }
 
 body {
   background: #f3f3f3;
@@ -72,7 +74,8 @@ body {
     float: left;
     font-size: 14px;
     color: #cccccc;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-weight: 400; }
   #header .site-nav {
     float: right; }
     #header .site-nav ul li {
@@ -87,19 +90,42 @@ body {
         #header .site-nav ul li a .active {
           color: #3299bb; }
 
-#tagline h2 {
-  text-align: center;
-  font-size: 2.754em;
-  font-weight: 400; }
+#tagline {
+  margin-bottom: 24px; }
+  #tagline h2 {
+    text-align: center;
+    font-size: 2.754em;
+    font-weight: 400; }
 
-#social ul {
-  margin: 0 auto;
-  text-align: center; }
-  #social ul li {
-    color: #cccccc;
-    font-size: 2.8em;
-    padding: 0.495em; }
-    #social ul li a {
-      color: #cccccc; }
-      #social ul li a:hover {
-        color: #ff9900; }
+#social {
+  margin-bottom: 38px; }
+  #social ul {
+    margin: 0 auto;
+    text-align: center; }
+    #social ul li {
+      color: #cccccc;
+      font-size: 2.8em;
+      padding: 0 0.495em; }
+      #social ul li a {
+        color: #cccccc; }
+        #social ul li a:hover {
+          color: #ff9900; }
+
+#portfolio {
+  margin-bottom: 38px; }
+  #portfolio h3 {
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: normal; }
+  #portfolio ul li {
+    margin: 0 18px;
+    padding: 0; }
+    #portfolio ul li img {
+      border: 6px solid white; }
+
+#writings {
+  margin-bottom: 38px; }
+  #writings h3 {
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: normal; }
