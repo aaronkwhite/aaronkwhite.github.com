@@ -129,3 +129,23 @@ body {
     margin-bottom: 48px;
     text-align: center;
     font-weight: normal; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #header .site-title {
+    display: block;
+    float: none;
+    text-align: center; }
+  #header .site-nav {
+    float: none; }
+    #header .site-nav ul li {
+      text-align: center;
+      padding: 24px 18px; } }
+/* Smartphones (landscape) ----------- */
+/* Smartphones (portrait) ----------- */
+/* iPads (portrait and landscape) ----------- */
+/* iPads (landscape) ----------- */
+/* iPads (portrait) ----------- */
+/* Desktops and laptops ----------- */
+/* Large screens ----------- */
+/* iPhone 4 ----------- */
