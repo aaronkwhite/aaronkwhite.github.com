@@ -11,7 +11,7 @@ a {
 
 h1 {
   font-family: "ff-tisa-web-pro", serif;
-  font-size: 2em;
+  font-size: 1.85em;
   line-height: 1;
   margin-bottom: 0.15em; }
 
@@ -125,10 +125,19 @@ body {
 
 #writings {
   margin-bottom: 38px; }
+  #writings h1 {
+    font-weight: 400; }
   #writings h3 {
     margin-bottom: 48px;
     text-align: center;
     font-weight: normal; }
+  #writings ul li {
+    margin-bottom: 48px; }
+  #writings p {
+    padding-top: 8px;
+    font-size: 0.75em; }
+  #writings span {
+    padding-right: 10px; }
 
 /* Large desktop */
 /* Portrait tablet to landscape and desktop */
