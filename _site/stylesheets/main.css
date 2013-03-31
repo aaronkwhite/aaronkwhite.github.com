@@ -130,22 +130,80 @@ body {
     text-align: center;
     font-weight: normal; }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #header .site-title {
-    display: block;
-    float: none;
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  #header {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    #header .site-title {
+      display: block;
+      float: none;
+      text-align: center; }
+    #header .site-nav {
+      float: none; }
+      #header .site-nav ul {
+        margin: 0 auto;
+        text-align: center; }
+        #header .site-nav ul li {
+          padding: 24px 14px 0 14px; } }
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #header {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    #header .site-title {
+      display: block;
+      float: none;
+      text-align: center; }
+    #header .site-nav {
+      float: none; }
+      #header .site-nav ul {
+        margin: 0 auto;
+        text-align: center; }
+        #header .site-nav ul li {
+          padding: 24px 14px 0 14px; }
+
+  #tagline {
+    margin-bottom: 0; }
+    #tagline h2 {
+      font-size: 2.125em;
+      font-weight: 400;
+      line-height: 1.4em; }
+
+  #portfolio ul li {
+    margin: 0 10px 24px 0; } }
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #header {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    #header .site-title {
+      display: block;
+      float: none;
+      text-align: center; }
+    #header .site-nav {
+      float: none; }
+      #header .site-nav ul {
+        margin: 0 auto;
+        text-align: center; }
+        #header .site-nav ul li {
+          padding: 24px 14px 0 14px; }
+
+  #tagline {
+    margin-bottom: 0; }
+    #tagline h2 {
+      font-size: 2.125em;
+      font-weight: 400;
+      line-height: 1.4em; }
+
+  #social {
+    margin: 0 auto;
     text-align: center; }
-  #header .site-nav {
-    float: none; }
-    #header .site-nav ul li {
-      text-align: center;
-      padding: 24px 18px; } }
-/* Smartphones (landscape) ----------- */
-/* Smartphones (portrait) ----------- */
-/* iPads (portrait and landscape) ----------- */
-/* iPads (landscape) ----------- */
-/* iPads (portrait) ----------- */
-/* Desktops and laptops ----------- */
-/* Large screens ----------- */
-/* iPhone 4 ----------- */
+    #social ul li {
+      font-size: 2.67em;
+      padding: 0 32px; }
+
+  #portfolio ul li {
+    display: block;
+    text-align: center; } }
