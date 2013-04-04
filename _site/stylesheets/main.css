@@ -148,7 +148,12 @@ a {
   color: #595959;
   text-decoration: none; }
   a:hover {
-    color: #ff9900; }
+    color: #ff9900;
+    -webkit-transition: all 0.3s linear; }
+
+p {
+  line-height: 1.675;
+  margin-bottom: 1em; }
 
 h1 {
   font-family: "ff-tisa-web-pro", serif;
@@ -237,6 +242,18 @@ body {
     line-height: 1.35em;
     padding: 0.5em 0 0.6725em 0; }
 
+#post_tagline {
+  margin: 1em 0x x;
+  text-align: center; }
+  #post_tagline h1 {
+    font-weight: 400;
+    padding: 0.5em 0 0.125em 0; }
+  #post_tagline h4 {
+    color: #d9d9d9; }
+  #post_tagline span {
+    padding-right: 10px;
+    vertical-align: middle; }
+
 #social {
   margin-bottom: 1em; }
   #social ul {
@@ -287,3 +304,20 @@ body {
     vertical-align: middle; }
   #writings .row {
     margin-bottom: 2em; }
+
+#post {
+  margin-top: -0.5em; }
+  #post .post_share {
+    text-align: center; }
+    #post .post_share a {
+      border-radius: 50%;
+      border: 3px solid #595959;
+      box-sizing: border-box;
+      display: inline-block;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      text-decoration: none;
+      width: 2em; }
+      #post .post_share a:hover {
+        border-color: #ff9900; }

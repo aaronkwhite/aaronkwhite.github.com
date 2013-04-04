@@ -1,20 +1,22 @@
-{% include header.html %}
+{% include post_header.html %}
 
 <section id="post">
   <div class="container">
     <div class="row">
+      <div class="col four-four post_share">
+        
+        <a href="https://twitter.com/intent/tweet?source=webclient&text={{ page.title }}&via=aaronkwhite&url=http://aaronkwhite.com{{ page.url }}">
+          <span class="icon ss-social-regular ss-twitter"></span>
+        </a>
+
+
+      </div><!-- /four-four -->
+    </div><!-- /row -->
+
+    <div class="row">
       <div class="col four-four">
         
-        <h1>{{ page.title }}</h1>
-        <h3>{{ page.date | date_to_long_string }}</h3>
-
-
-
         {{ content }}
-
-
-
-
 
       </div><!-- /four-four -->
     </div><!-- /row -->

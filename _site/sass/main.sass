@@ -14,6 +14,11 @@ a
   text-decoration: none
   &:hover
     color: $orange
+    -webkit-transition: all 0.3s linear
+
+p
+  line-height: 1.675
+  margin-bottom: 1em
 
 h1
   font-family: "ff-tisa-web-pro", serif
@@ -105,6 +110,18 @@ body
     line-height: 1.35em
     padding: .5em 0 .6725em 0
 
+#post_tagline
+  margin: 1em 0x x
+  text-align: center
+  h1
+    font-weight: 400
+    padding: .5em 0 .125em 0
+  h4
+    color: $greyLighter
+  span
+    padding-right: 10px
+    vertical-align: middle
+
 #social
   margin-bottom: 1em
   ul
@@ -157,5 +174,22 @@ body
     vertical-align: middle
   .row
     margin-bottom: 2em
+
+#post
+  margin-top: -.5em
+  .post_share
+    text-align: center
+    a
+      border-radius: 50%
+      border: 3px solid $grey
+      box-sizing: border-box
+      display: inline-block
+      height: 2em
+      line-height: 2em
+      text-align: center
+      text-decoration: none
+      width: 2em
+      &:hover
+        border-color: $orange
 
 
