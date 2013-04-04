@@ -2,7 +2,6 @@
 title: Bootstrap Illustrator Template
 author: Aaron
 layout: post
-permalink: /2012/artwork/bootstrap-illustrator-template/
 categories:
   - Artwork
 tags:

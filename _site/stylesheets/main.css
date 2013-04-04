@@ -221,7 +221,8 @@ body {
       padding: 0 2em;
       padding-right: 0; }
       #header .site-nav ul li a {
-        color: #d9d9d9; }
+        color: #d9d9d9;
+        vertical-align: middle; }
         #header .site-nav ul li a:hover {
           color: #3299bb; }
         #header .site-nav ul li a .active {
@@ -244,10 +245,11 @@ body {
     #social ul li {
       color: #d9d9d9;
       font-size: 2.8em;
-      line-height: 1.5;
+      line-height: 1.25;
       padding: 0 0.675em; }
       #social ul li a {
-        color: #dfdfdf; }
+        color: #e6e6e6;
+        vertical-align: middle; }
         #social ul li a:hover {
           color: #ff9900; }
 
@@ -281,6 +283,7 @@ body {
     #writings p a {
       color: #999999; }
   #writings span {
-    padding-right: 10px; }
+    padding-right: 10px;
+    vertical-align: middle; }
   #writings .row {
     margin-bottom: 2em; }

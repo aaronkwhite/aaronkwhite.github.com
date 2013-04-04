@@ -8,7 +8,7 @@ pygments:   true
 title:      Aaron K. White
 
 #url:        http://aaronkwhite.com
-permalink:   /:year/:month/:day/:title/
+permalink:  /post/:title/
 
 author:
     name:       Aaron K. White
