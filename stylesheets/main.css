@@ -213,11 +213,13 @@ body {
   background: white;
   margin-bottom: 2em;
   padding: 1.5em 0; }
-  #header .site-title {
+  #header .site-title a {
     font-size: 14px;
     color: #d9d9d9;
     padding-top: 20px;
     font-weight: 400; }
+    #header .site-title a:hover {
+      color: #3299bb; }
   #header .site-nav ul {
     float: right; }
     #header .site-nav ul li {
@@ -240,7 +242,7 @@ body {
     font-size: 3.25em;
     font-weight: 400;
     line-height: 1.35em;
-    padding: 0.5em 0 0.6725em 0; }
+    padding: 0.5em 0; }
 
 #post_tagline {
   margin: 1em 0x x;
@@ -260,15 +262,25 @@ body {
     margin: 0 auto;
     text-align: center; }
     #social ul li {
-      color: #d9d9d9;
-      font-size: 2.8em;
-      line-height: 1.25;
-      padding: 0 0.675em; }
+      padding: 0 0.5em;
+      margin-bottom: 0.5em; }
       #social ul li a {
+        border-radius: 50%;
+        border: 3px solid #e6e6e6;
+        box-sizing: border-box;
         color: #e6e6e6;
-        vertical-align: middle; }
+        display: block;
+        font-size: 3.2em;
+        height: 1.7em;
+        line-height: 1.95em;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 1.7em; }
         #social ul li a:hover {
-          color: #ff9900; }
+          color: #ff9900;
+          border-color: #ff9900;
+          -webkit-transition: all 0.5s linear; }
 
 #portfolio {
   margin-bottom: 38px; }
