@@ -1,4 +1,6 @@
 @import 'variables'
+@import 'reset'
+@import 'grid'
 
 *
   margin: 0
@@ -53,31 +55,30 @@ ul.inline > li, ol.inline > li
   *zoom: 1
 
 section
-  display: block
-  overflow: hidden
+  //display: block
+  //overflow: hidden
+  
 
 // Main Body elements
 
 html
-  font: 150% / 1.5 "freight-sans-pro",'Helvetica Neue', Helvetica, Arial, sans-serif
+  font: 150% / 1 "freight-sans-pro",'Helvetica Neue', Helvetica, Arial, sans-serif
   font-weight: 400
 
 body
   background: $greyLight
-  //background: $greyLight url('/images/grid.png') repeat
   color: $grey
   display: block
   margin: 0
-  
-.container
-  //background: rgba(255, 105, 180, 0.65)
-  margin: 0 auto
-  padding: .5em 1em
-  position: relative
-  max-width: 38.583em
+
+.row
+  margin-bottom: .5em
+  .col
+    magrin-bottom: .5em
 
 #header
-  margin-bottom: 24px
+  background: $white
+  padding: 1.5em 0
   .site-title
     float: left
     font-size: 14px
@@ -85,12 +86,12 @@ body
     padding-top: 20px
     font-weight: 400
   .site-nav
-    float: right
     ul
+      float: right
       li
         color: $greyLighter
         font-size: 32px
-        padding-left: 60px
+        padding: 0 2em
         padding-right: 0
         a
           color: $greyLighter
@@ -100,23 +101,26 @@ body
             color: $blue
 
 #tagline
-  margin-bottom: 24px
+  margin: 1em 0x x
   h2
     text-align: center
-    font-size: 2.754em
+    font-size: 3.25em
     font-weight: 400
+    line-height: 1.35em
+    padding: .5em 0 .6725em 0
 
 #social
-  margin-bottom: 38px
+  margin-bottom: 1em
   ul
     margin: 0 auto
     text-align: center
     li
       color: $greyLighter
       font-size: 2.8em
-      padding: 0 0.5975em
+      line-height: 1.5
+      padding: 0 0.675em
       a
-        color: $greyLighter
+        color: darken($greyLight, 8%)
         &:hover
           color: $orange
 
@@ -150,8 +154,3 @@ body
   span
     padding-right: 10px
 
-
-
-//Responsive calls
-
-@import 'responsive'

@@ -1,0 +1,80 @@
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  #header {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    #header .site-title {
+      display: block;
+      float: none;
+      text-align: center; }
+    #header .site-nav {
+      float: none; }
+      #header .site-nav ul {
+        margin: 0 auto;
+        text-align: center; }
+        #header .site-nav ul li {
+          padding: 24px 14px 0 14px; }
+
+  #portfolio ul li {
+    margin: 0 12px 24px 12px; } }
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #header {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    #header .site-title {
+      display: block;
+      float: none;
+      text-align: center; }
+    #header .site-nav {
+      float: none; }
+      #header .site-nav ul {
+        margin: 0 auto;
+        text-align: center; }
+        #header .site-nav ul li {
+          padding: 24px 14px 0 14px; }
+
+  #tagline {
+    margin-bottom: 0; }
+    #tagline h2 {
+      font-size: 2.125em;
+      font-weight: 400;
+      line-height: 1.4em; }
+
+  #portfolio ul li {
+    margin: 0 30px 24px 30px; } }
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #header {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    #header .site-title {
+      display: block;
+      float: none;
+      text-align: center; }
+    #header .site-nav {
+      float: none; }
+      #header .site-nav ul {
+        margin: 0 auto;
+        text-align: center; }
+        #header .site-nav ul li {
+          padding: 24px 14px 0 14px; }
+
+  #tagline {
+    margin-bottom: 0; }
+    #tagline h2 {
+      font-size: 2.125em;
+      font-weight: 400;
+      line-height: 1.4em; }
+
+  #social {
+    margin: 0 auto;
+    text-align: center; }
+    #social ul li {
+      font-size: 2.67em;
+      padding: 0 32px; }
+
+  #portfolio ul li {
+    display: block;
+    text-align: center; } }
