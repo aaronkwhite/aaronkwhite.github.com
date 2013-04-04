@@ -86,7 +86,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   .four-one, .four-two {
     width: 48%; }
 
-  .four-three, .four-four, .four-one.tablet-full {
+  .four-three,
+  .four-four,
+  .four-one.tablet-full {
     width: 98%; }
 
   .nested {
@@ -204,9 +206,9 @@ body {
 
 #header {
   background: white;
+  margin-bottom: 2em;
   padding: 1.5em 0; }
   #header .site-title {
-    float: left;
     font-size: 14px;
     color: #d9d9d9;
     padding-top: 20px;
@@ -263,8 +265,9 @@ body {
 
 #writings {
   margin-bottom: 38px; }
-  #writings h1 {
-    font-weight: 400; }
+  #writings h2 {
+    font-weight: 400;
+    line-height: 1.3; }
   #writings h3 {
     margin-bottom: 48px;
     text-align: center;
@@ -273,6 +276,11 @@ body {
     margin-bottom: 48px; }
   #writings p {
     padding-top: 8px;
-    font-size: 0.75em; }
+    font-size: 0.75em;
+    color: #999999; }
+    #writings p a {
+      color: #999999; }
   #writings span {
     padding-right: 10px; }
+  #writings .row {
+    margin-bottom: 2em; }
