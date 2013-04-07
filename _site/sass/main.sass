@@ -9,6 +9,14 @@
 
 // Utilities
 
+img
+  width: auto 9
+  height: auto
+  max-width: 100%
+  vertical-align: middle
+  border: 0
+  -ms-interpolation-mode: bicubic
+
 a
   color: $grey
   text-decoration: none
@@ -19,6 +27,8 @@ a
 p
   line-height: 1.675
   margin-bottom: 1em
+  a
+    text-decoration: underline
 
 h1
   font-family: "ff-tisa-web-pro", serif
@@ -205,6 +215,33 @@ body
       width: 2em
       &:hover
         border-color: $orange
+  p
+    img
+      border: 6px solid $white
+      display: block
+      margin: 0 auto
+      text-align: center
+
+#about-head
+  background: url(/images/header_bg.jpg) 50% 0 no-repeat fixed
+.story
+  height: 400px
+  padding: 0
+  margin: 0
+  width: 100%
+  max-width: 1920px
+  position: relative
+  margin: 0 auto
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
+
+#about
+  .masthead
+    border: 8px solid $white
+    text-align: center
 
 footer
   color: darken($greyLighter, 3%)
