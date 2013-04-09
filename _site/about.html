@@ -11,34 +11,32 @@
     <link href="fonts/ss-pika.css" rel="stylesheet" />
     <link rel="canonical" href="/about.html" />
     <link rel="stylesheet" href="stylesheets/main.css" />
+
+    <script src="javascripts/custom.modernizr.js"></script>
   </head>
 
   <body>
 
-    <section id="header">
-      <div class="container">
+    <header>
+      <div class="row">
 
-        <div class="row">
-          <div class="col four-one tablet-full site-title">
-            <a href="">aaron k. white</a>
-          </div>
+        <div class="large-4 columns site-title">
+          <a href="">aaron k. white</a>
+        </div>
 
-          <div class="col four-three site-nav">
-            <ul class="unstyled inline">
-              <li><a href="/" class="ss-home"></a></li>
-              <li><a href="/about.html" class="ss-businessuser"></a></li>
-              <li><a href="http://homelandpodcast.com" class="ss-mic"></a></li>
-              <li><a href="/" class="ss-rss"></a></li>
-            </ul>
-          </div><!-- .site-nav -->
+        <div class="large-8 columns site-nav">
+          <ul class="inline-list">
+            <li><a href="/" class="ss-home"></a></li>
+            <li><a href="/about.html" class="ss-businessuser"></a></li>
+            <li><a href="http://homelandpodcast.com" class="ss-mic"></a></li>
+            <li><a href="/" class="ss-rss"></a></li>
+          </ul>
+        </div>
+      
+      </div><!-- /row -->
+    </header>
 
 
-        </div><!-- /row -->
-
-      </div><!-- .container -->
-
-    </section><!-- /header -->
-  
   <!--
 <section id="about">
 
@@ -61,6 +59,32 @@
 </section>
 -->
 
+<section id="aaron-bg" class="parallax" data-image="images/telephone.jpg" data-width="1600" data-height="600">
+  <div class="row">
+    <div class="large-12 columns">
+      <h3>a little about me...</h3>
+    </div>
+  </div><!-- /row -->
+
+</section>
+
+<div class="row">
+  <div class="large-12 columns">
+    <p>When not working on Projects I like to focus on my Photography, Playing the Guitar, renovating my new house and spending time on the web learning about new technologies/techniques so I can integrate them into my work.</p>
+
+    <p>You can follow me on Twitter or check out my Flickr Photostream if you'd like to get a better idea of what I'm up to. Please feel free to contact me with any questions, comments, trivia or any general statements of fact that I may not be aware of.</p>
+
+    <p>Colophon</p>
+
+    <p>This site was designed and developed by Aaron K. White, with XHTML & CSS, using Espresso & Photoshop CS4 on a Macbook Pro and is powered by Wordpress.</p>
+
+    <p>This site was tested on all Modern Browsers. If you experience any issues I would download Safari, Firefox or Chrome.</p>
+
+  </div>
+</div><!-- /row -->
+
+
+<!--
 <section id="about-head" class="story" data-speed="4" data-type="background">
   <div class="container">
 
@@ -86,24 +110,26 @@
   </div>
 
 </section>
-
-
+-->
 
   
   <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col four-two">
+    <div class="row">
+        <div class="large-6 columns">
           <p>Really Tall... Really Amazing!</p>
         </div><!-- /four-two -->
 
-        <div class="col four-two">
-          <p class="copy">Copyright 2010-2013 - Aaron K. White - All Rights Reserved</p>
+        <div class="large-6 columns">
+          <p class="copy">Copyright 2008-2013 - Aaron K. White - All Rights Reserved</p>
         </div><!-- /four-two -->
 
       </div><!-- /row -->
-    </div><!-- /container -->
   </footer>
+
+
+
+
+
     
   <script src="javascripts/jquery-1.9.1.min.js"></script>
 
@@ -111,7 +137,17 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+  <script type="text/javascript" src="javascripts/hw-parallax.min.js"></script>
+  <script>
+    $('.parallax').parallax({
+      scroll_factor: 0.5
+    });
+  </script>
   <script src="javascripts/scripts.js"></script>
+
+
+
+
 
   </body>
 </html>

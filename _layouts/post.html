@@ -1,25 +1,35 @@
-{% include post_header.html %}
+{% include header.html %}
+
+<section id="post-title">
+  <div class="row">
+    <div class="large-12 columns">
+      <h2>{{ page.title }}</h2>
+      <p>
+        <span class="ss-calendar"></span> {{ page.date | date: "%B %d, %Y" }}
+      </p>
+    </div>
+  </div><!-- /row -->
+</section>
+
 
 <section id="post">
-  <div class="container">
-    <div class="row">
-      <div class="col four-four post_share">
-        
-        <a href="https://twitter.com/intent/tweet?source=webclient&text={{ page.title }}&via=aaronkwhite&url=http://aaronkwhite.com{{ page.url }}">
-          <span class="icon ss-social-regular ss-twitter"></span>
-        </a>
 
+  <div class="row">
+    <div class="large-12 columns post_share">
+      <a href="https://twitter.com/intent/tweet?source=webclient&text={{ page.title }}&via=aaronkwhite&url=http://aaronkwhite.com{{ page.url }}">
+        <span class="icon ss-social-regular ss-twitter"></span>
+      </a>
+    </div>
+  </div><!-- /row -->
 
-      </div><!-- /four-four -->
-    </div><!-- /row -->
-
-    <div class="row">
-      <div class="col four-four">
+  <div class="row">
+    <div class="large-12 columns">
         
         {{ content }}
 
-      </div><!-- /four-four -->
-    </div><!-- /row -->
-  </div><!-- /container -->
+    </div>
+  </div><!-- /row -->
+
+</section>
 
 {% include footer.html %}

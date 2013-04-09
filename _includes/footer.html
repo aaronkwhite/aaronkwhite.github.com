@@ -1,18 +1,21 @@
   
   <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col four-two">
+    <div class="row">
+        <div class="large-6 columns">
           <p>Really Tall... Really Amazing!</p>
         </div><!-- /four-two -->
 
-        <div class="col four-two">
-          <p class="copy">Copyright 2010-{{ site.time | date: "%Y" }} - Aaron K. White - All Rights Reserved</p>
+        <div class="large-6 columns">
+          <p class="copy">Copyright 2008-{{ site.time | date: "%Y" }} - Aaron K. White - All Rights Reserved</p>
         </div><!-- /four-two -->
 
       </div><!-- /row -->
-    </div><!-- /container -->
   </footer>
+
+
+
+
+
     
   <script src="{{ relative }}javascripts/jquery-1.9.1.min.js"></script>
 
@@ -20,7 +23,17 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+  <script type="text/javascript" src="{{ relative }}javascripts/hw-parallax.min.js"></script>
+  <script>
+    $('.parallax').parallax({
+      scroll_factor: 0.5
+    });
+  </script>
   <script src="{{ relative }}javascripts/scripts.js"></script>
+
+
+
+
 
   </body>
 </html>

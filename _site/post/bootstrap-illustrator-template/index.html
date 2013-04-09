@@ -11,57 +11,56 @@
     <link href="../../fonts/ss-pika.css" rel="stylesheet" />
     <link rel="canonical" href="/post/bootstrap-illustrator-template/" />
     <link rel="stylesheet" href="../../stylesheets/main.css" />
+
+    <script src="../../javascripts/custom.modernizr.js"></script>
   </head>
 
   <body>
 
-    <section id="header">
-      <div class="container">
+    <header>
+      <div class="row">
 
-        <div class="row">
-          <div class="col four-one tablet-full site-title">
-            <a href="">aaron k. white</a>
-          </div>
+        <div class="large-4 columns site-title">
+          <a href="">aaron k. white</a>
+        </div>
 
-          <div class="col four-three site-nav">
-            <ul class="unstyled inline">
-              <li><a href="/" class="ss-home"></a></li>
-              <li><a href="/" class="ss-businessuser"></a></li>
-              <li><a href="http://homelandpodcast.com" class="ss-mic"></a></li>
-              <li><a href="/" class="ss-rss"></a></li>
-            </ul>
-          </div><!-- .site-nav -->
+        <div class="large-8 columns site-nav">
+          <ul class="inline-list">
+            <li><a href="/" class="ss-home"></a></li>
+            <li><a href="/about.html" class="ss-businessuser"></a></li>
+            <li><a href="http://homelandpodcast.com" class="ss-mic"></a></li>
+            <li><a href="/" class="ss-rss"></a></li>
+          </ul>
+        </div>
+      
+      </div><!-- /row -->
+    </header>
 
 
-        </div><!-- /row -->
+<section id="post-title">
+  <div class="row">
+    <div class="large-12 columns">
+      <h2>Bootstrap Illustrator Template</h2>
+      <p>
+        <span class="ss-calendar"></span> April 02, 2012
+      </p>
+    </div>
+  </div><!-- /row -->
+</section>
 
-        <section id="post_tagline" class="container" role='banner'>
-          <div class="row">
-            <div class="col four-four">
-              <h1>Bootstrap Illustrator Template</h1>
-              <h4><span class="ss-calendar"></span> 02 April 2012</h4>
-            </div>
-          </div>
-      </section>
-
-      </div><!-- .container -->
-    </section><!-- /header -->
 
 <section id="post">
-  <div class="container">
-    <div class="row">
-      <div class="col four-four post_share">
-        
-        <a href="https://twitter.com/intent/tweet?source=webclient&text=Bootstrap Illustrator Template&via=aaronkwhite&url=http://aaronkwhite.com/post/bootstrap-illustrator-template/">
-          <span class="icon ss-social-regular ss-twitter"></span>
-        </a>
 
+  <div class="row">
+    <div class="large-12 columns post_share">
+      <a href="https://twitter.com/intent/tweet?source=webclient&text=Bootstrap Illustrator Template&via=aaronkwhite&url=http://aaronkwhite.com/post/bootstrap-illustrator-template/">
+        <span class="icon ss-social-regular ss-twitter"></span>
+      </a>
+    </div>
+  </div><!-- /row -->
 
-      </div><!-- /four-four -->
-    </div><!-- /row -->
-
-    <div class="row">
-      <div class="col four-four">
+  <div class="row">
+    <div class="large-12 columns">
         
         <h1></h1>
 
@@ -82,25 +81,29 @@
 <p> </p>
 
 
-      </div><!-- /four-four -->
-    </div><!-- /row -->
-  </div><!-- /container -->
+    </div>
+  </div><!-- /row -->
+
+</section>
 
   
   <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col four-two">
+    <div class="row">
+        <div class="large-6 columns">
           <p>Really Tall... Really Amazing!</p>
         </div><!-- /four-two -->
 
-        <div class="col four-two">
-          <p class="copy">Copyright 2010-2013 - Aaron K. White - All Rights Reserved</p>
+        <div class="large-6 columns">
+          <p class="copy">Copyright 2008-2013 - Aaron K. White - All Rights Reserved</p>
         </div><!-- /four-two -->
 
       </div><!-- /row -->
-    </div><!-- /container -->
   </footer>
+
+
+
+
+
     
   <script src="../../javascripts/jquery-1.9.1.min.js"></script>
 
@@ -108,7 +111,17 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+  <script type="text/javascript" src="../../javascripts/hw-parallax.min.js"></script>
+  <script>
+    $('.parallax').parallax({
+      scroll_factor: 0.5
+    });
+  </script>
   <script src="../../javascripts/scripts.js"></script>
+
+
+
+
 
   </body>
 </html>

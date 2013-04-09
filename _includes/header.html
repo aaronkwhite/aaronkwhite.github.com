@@ -11,30 +11,27 @@
     <link href="{{ relative }}fonts/ss-pika.css" rel="stylesheet" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <link rel="stylesheet" href="{{ relative }}stylesheets/main.css" />
+
+    <script src="{{ relative }}javascripts/custom.modernizr.js"></script>
   </head>
 
   <body>
 
-    <section id="header">
-      <div class="container">
+    <header>
+      <div class="row">
 
-        <div class="row">
-          <div class="col four-one tablet-full site-title">
-            <a href="{{ site.url }}">aaron k. white</a>
-          </div>
+        <div class="large-4 columns site-title">
+          <a href="{{ site.url }}">aaron k. white</a>
+        </div>
 
-          <div class="col four-three site-nav">
-            <ul class="unstyled inline">
-              <li><a href="/" class="ss-home"></a></li>
-              <li><a href="/about.html" class="ss-businessuser"></a></li>
-              <li><a href="http://homelandpodcast.com" class="ss-mic"></a></li>
-              <li><a href="/" class="ss-rss"></a></li>
-            </ul>
-          </div><!-- .site-nav -->
-
-
-        </div><!-- /row -->
-
-      </div><!-- .container -->
-
-    </section><!-- /header -->
+        <div class="large-8 columns site-nav">
+          <ul class="inline-list">
+            <li><a href="/" class="ss-home"></a></li>
+            <li><a href="/about.html" class="ss-businessuser"></a></li>
+            <li><a href="http://homelandpodcast.com" class="ss-mic"></a></li>
+            <li><a href="/" class="ss-rss"></a></li>
+          </ul>
+        </div>
+      
+      </div><!-- /row -->
+    </header>
