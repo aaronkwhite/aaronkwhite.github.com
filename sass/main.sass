@@ -85,10 +85,11 @@ header
 
 
 #social
-  background: $white
-  padding: 1.75em 0
+  background: lighten($greyLighter, 9%)
+  padding: 2.25em 0 2em 0
   ul
     list-style: none
+    margin: 0
     text-align: center
     li
       display: inline-block
@@ -97,7 +98,7 @@ header
         border-radius: 50%
         border: 3px solid $greyLight
         box-sizing: border-box
-        color: $greyLighter
+        color: $greyLight
         display: block
         font-size: 3.2em
         height: 1.7em
@@ -113,7 +114,7 @@ header
           -webkit-transition: all 0.5s linear
 
 #portfolio
-  margin: 2em 0
+  margin: 0
   img
     border: 6px solid $white
     display: block
@@ -150,6 +151,7 @@ header
     color: lighten($grey, 25%)
 
 #portfolio h4, #writings h4
+
   text-align: center
   font-weight: 400
   margin: 0
@@ -220,6 +222,18 @@ header
   -ms-perspective: 1000px
   -o-perspective: 1000px
   perspective: 1000px
+
+#front-bg
+  height: 400px
+  @extend .animated, .fadeIn
+  @extend .delay
+  h2
+    color: $white
+    font-size: 4em
+    font-weight: 400
+    text-align: center
+    margin: 0
+    padding: 1.34em 0
 
 #aaron-bg
   height: 400px

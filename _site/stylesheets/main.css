@@ -3824,7 +3824,7 @@ table {
   .f-dropdown.large {
     max-width: 800px; }
 
-.animated, header .site-nav ul li a:hover, #aaron-bg {
+.animated, header .site-nav ul li a:hover, #front-bg, #aaron-bg {
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
   -ms-animation-fill-mode: both;
@@ -3835,14 +3835,14 @@ table {
   -ms-animation-duration: 1s;
   -o-animation-duration: 1s;
   animation-duration: 1s; }
-  .animated.hinge, header .site-nav ul li a.hinge:hover, .hinge#aaron-bg {
+  .animated.hinge, header .site-nav ul li a.hinge:hover, .hinge#front-bg, .hinge#aaron-bg {
     -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
     -ms-animation-duration: 2s;
     -o-animation-duration: 2s;
     animation-duration: 2s; }
 
-.delay, #aaron-bg {
+.delay, #front-bg, #aaron-bg {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
   -ms-animation-delay: 1.5s;
@@ -4436,7 +4436,7 @@ table {
   100% {
     opacity: 1; } }
 
-.fadeIn, #aaron-bg {
+.fadeIn, #front-bg, #aaron-bg {
   -webkit-animation-name: fadeIn;
   -moz-animation-name: fadeIn;
   -o-animation-name: fadeIn;
@@ -4850,10 +4850,11 @@ header {
     text-align: center; }
 
 #social {
-  background: white;
-  padding: 1.75em 0; }
+  background: #efefef;
+  padding: 2.25em 0 2em 0; }
   #social ul {
     list-style: none;
+    margin: 0;
     text-align: center; }
     #social ul li {
       display: inline-block;
@@ -4862,7 +4863,7 @@ header {
         border-radius: 50%;
         border: 3px solid #f3f3f3;
         box-sizing: border-box;
-        color: #d9d9d9;
+        color: #f3f3f3;
         display: block;
         font-size: 3.2em;
         height: 1.7em;
@@ -4877,7 +4878,7 @@ header {
           -webkit-transition: all 0.5s linear; }
 
 #portfolio {
-  margin: 2em 0; }
+  margin: 0; }
   #portfolio img {
     border: 6px solid white;
     display: block;
@@ -4980,6 +4981,16 @@ header {
   -ms-perspective: 1000px;
   -o-perspective: 1000px;
   perspective: 1000px; }
+
+#front-bg {
+  height: 400px; }
+  #front-bg h2 {
+    color: white;
+    font-size: 4em;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 1.34em 0; }
 
 #aaron-bg {
   height: 400px;
