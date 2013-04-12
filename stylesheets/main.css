@@ -4850,22 +4850,22 @@ header {
     text-align: center; }
 
 #social {
-  background: #efefef;
-  padding: 2.25em 0 2em 0; }
+  background: #eaeaea;
+  padding: 1.5em 0; }
   #social ul {
     list-style: none;
     margin: 0;
     text-align: center; }
     #social ul li {
       display: inline-block;
-      padding: 0 1em; }
+      padding: 0 1.25em; }
       #social ul li a {
         border-radius: 50%;
-        border: 3px solid #f3f3f3;
+        border: 3px solid #eaeaea;
         box-sizing: border-box;
-        color: #f3f3f3;
+        color: #d9d9d9;
         display: block;
-        font-size: 3.2em;
+        font-size: 2.275em;
         height: 1.7em;
         line-height: 1.95em;
         text-align: center;
