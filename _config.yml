@@ -1,6 +1,3 @@
-safe:       false
-auto:       true
-server:     false
 source:     .
 markdown:   rdiscount
 pygments:   true
