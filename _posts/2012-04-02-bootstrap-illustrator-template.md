@@ -41,4 +41,4 @@ Please send feedback via [Twitter][3] or in the comments below, if you notice an
 
 [4]: /images/posts/bootstrap_illustrator_template.png
 
-[5] http://www.twitter.com/aaronkwhite/
+[5]: http://www.twitter.com/aaronkwhite
