@@ -1,9 +1,15 @@
 ---
+title: "Bootstrap 3 Illustrator Template"
+author: Aaron
 layout: post
-title: "Bootstrap 3.0 Illustrator Template"
-description: ""
-category: 
-tags: []
+category:
+- Design
+tags:
+  - Bootstrap
+  - Illustrator
+  - Template
+  - Web Design
+  - Design
 ---
 # 
 
@@ -18,6 +24,8 @@ Also included in this update version are examples of the Basic marketing website
 ![Bootstrap 3 Illustrator Template v.0.6.5][3]
 
 ### [Download][4] the template over at LayerVault.
+
+This template is free to use for any projects (personal & commercial), all I ask is you follow me on Twitter, send a tweet to get the word out and that you don't take any credit for my work or the guys who created Bootstrap.
 
 I'd like to thank my friend [Michael Grills][mikegrills] for pushing me to do more and be a better designer, LayerVault for creating a kickass app with support for public projects, @mdo & @fat for creating Bootstrap in the first place... I've saved a TON of hours because of it.
 
