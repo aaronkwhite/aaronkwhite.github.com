@@ -17,7 +17,7 @@ tags:
 
 
 ### UPDATE
-With Bootstrap 3.0 soon to be released I have moved the 2.x version of the Bootstrap Illustrator Template over to Layer Vault. You can find the 3.0 release with all it's sexiness and the overhauled Grid here: [Twitter][5]
+With Bootstrap 3.0 soon to be released I have moved the 2.x version of the Bootstrap Illustrator Template over to Layer Vault. You can find the 3.0 release with all it's sexiness and the overhauled Grid here: ['Bootstrap 3 Illustrator Template'][5]
 
 
 This design template was created to help designers jumpstart their [Bootstrap][1] projects. Recently I’ve found myself relying on the many great features of Bootstrap when designing apps and have become growingly frustrated with having to create the default grid in Illustrator & Photoshop from scratch… I was very surprised to see that Bootstrap templates don’t already exist, so I created this one and am sharing it with the world. The grid layout is based on the default 12 column grid released in the 2.0 version of [Bootstrap][1].
