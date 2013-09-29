@@ -23,7 +23,7 @@ Also included in this update version are examples of the Basic marketing website
 
 ![Bootstrap 3 Illustrator Template v.0.6.5][3]
 
-### [Download][4] the template over at LayerVault.
+### <a href="https://layervault.com/aaron-k-white/Bootstrap%203%20Illustrator%20Template" class="button secondary">Download</a> the template over at LayerVault.
 
 This template is free to use for any projects (personal & commercial), all I ask is you follow me on [Twitter][followme], send a tweet to get the word out and that you don't take any credit for my work or the guys who created Bootstrap.
 
