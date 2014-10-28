@@ -1,0 +1,17 @@
+@import 'normalize';
+@import 'variables';
+@import 'foundation/settings';
+@import 'foundation';
+@import 'parallax';
+@import 'animate';
+
+
+body {
+  background: $white;
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ff-tisa-web-pro", serif;
+  font-weight: 400;
+}
