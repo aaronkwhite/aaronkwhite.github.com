@@ -14829,6 +14829,35 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0; }
   100% {
     opacity: 1; } }
+  #hero .more {
+    -webkit-animation: fadeIn 4s ease 2s 1 both;
+    -moz-animation: fadeIn 4s ease 2s 1 both;
+    animation: fadeIn 4s ease 2s 1 both;
+    -webkit-animation-backface-visibility: hidden;
+    -moz-animation-backface-visibility: hidden;
+    -ms-animation-backface-visibility: hidden;
+    -o-animation-backface-visibility: hidden;
+    animation-backface-visibility: hidden; }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
   #hero .btn-outline-alt {
     border-style: solid;
     border-width: 0px;
