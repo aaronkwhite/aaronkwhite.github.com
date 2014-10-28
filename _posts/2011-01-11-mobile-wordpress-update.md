@@ -2,6 +2,7 @@
 title: Mobile WordPress Update
 author: Aaron
 layout: post
+permalink: /post/mobile-wordpress-update
 dsq_thread_id:
   - 207493344
 categories:

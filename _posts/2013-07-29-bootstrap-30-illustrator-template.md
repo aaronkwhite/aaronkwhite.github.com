@@ -2,6 +2,7 @@
 title: "Bootstrap 3 Illustrator Template"
 author: Aaron
 layout: post
+permalink: /post/bootstrap-30-illustrator-template
 category:
 - Design
 tags:
@@ -23,7 +24,7 @@ Also included in this update version are examples of the Basic marketing website
 
 ![Bootstrap 3 Illustrator Template v.0.6.5][3]
 
-### <a href="http://lyrv.lt/uh6T7IuzAS" class="button secondary small">Download</a> the template over at LayerVault.
+### <a href="https://layervault.com/aaron-k-white/Bootstrap%203%20Illustrator%20Template" class="button secondary small">Download</a> the template over at LayerVault.
 
 This template is free to use for any projects (personal & commercial), all I ask is you follow me on [Twitter][followme], send a tweet to get the word out and that you don't take any credit for my work or the guys who created Bootstrap.
 

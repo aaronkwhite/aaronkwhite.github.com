@@ -2,6 +2,7 @@
 title: The @Grovemade iPad2 Bamboo Skin
 author: Aaron
 layout: post
+permalink: /post/the-grovemade-ipad2-bamboo-skin
 dsq_thread_id:
   - 453197054
 categories:

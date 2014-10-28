@@ -2,6 +2,7 @@
 title: Startup Weekend Denver
 author: Aaron
 layout: post
+permalink: /post/startup-weekend-denver
 dsq_thread_id:
   - 318532693
 categories:

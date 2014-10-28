@@ -2,6 +2,7 @@
 title: "10 Things Designers Need to Stop Doing to Kick Agile's Ass!"
 author: Aaron
 layout: post
+permalink: /post/kick-agiles-ass
 category:
 - Design
 tags:

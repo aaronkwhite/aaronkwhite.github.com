@@ -2,6 +2,7 @@
 title: Theming Vanilla Forums
 author: Aaron
 layout: post
+permalink: /post/theming-vanilla-forums
 dsq_thread_id:
   - 213876332
 categories:

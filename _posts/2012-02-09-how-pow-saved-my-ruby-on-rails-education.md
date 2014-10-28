@@ -2,6 +2,7 @@
 title: How POW saved my Ruby on Rails Education
 author: Aaron
 layout: post
+permalink: /post/how-pow-saved-my-ruby-on-rails-education
 dsq_thread_id:
   - 570136845
 categories:

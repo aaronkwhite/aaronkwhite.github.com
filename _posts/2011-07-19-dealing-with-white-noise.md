@@ -2,6 +2,7 @@
 title: Dealing with White Noise
 author: Aaron
 layout: post
+permalink: /post/dealing-with-white-noise
 dsq_thread_id:
   - 362458898
 categories:
