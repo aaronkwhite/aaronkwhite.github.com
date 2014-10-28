@@ -1,20 +1,62 @@
-source:     .
-markdown:   rdiscount
-pygments:   true
-
-title:      Aaron K. White
-
-#url:        http://aaronkwhite.com
-permalink:  /post/:title/
+title:              Aaron K. White
+description:        Really Tall... Really Amazing!
 
 author:
-    name:       Aaron K. White
-    email:      aaron@aaronkwhite.com
-    github:     aaronkwhite
-    twitter:    aaronkwhite
-    gravatar:   http://www.gravatar.com/avatar/a12d1a571d63957f150117f18d87a69f.png
+    name:           Aaron K. White
+    email:          aaron@aaronkwhite.com
+    github:         aaronkwhite
+    twitter:        aaronkwhite
+    gravatar:       http://www.gravatar.com/avatar/a12d1a571d63957f150117f18d87a69f.png
 
-#comments:
-#    provider: disqus
-#    disqus:
-#        short_name: intheatticuk
+# Dependencies
+markdown:           rdiscount
+highlighter:        pygments
+
+# Server
+source:             .
+baseurl:            /
+port:               4000
+
+# Permalinks
+permalink:          pretty
+
+
+## CUSTOM VARS
+
+# Misc Vars
+#ga_id:             UA-17703918-45s
+site_name:          Aaron K. White
+site_url:           http://aaronkwhite.com
+site_email:         info@waaronkwhite.com
+
+# Portfolio Items
+portfolios:
+  - img_url:         /images/walletdata.png
+    name:           Walletdata.io
+    type:           Site &amp; Application Branding, Design and Development
+    url:            /pages/walletdata
+
+  - img_url:         /images/prototype_bot.png
+    name:           Prototypebot
+    type:           Logo design
+    url:            /pages/prototypebot
+
+  - img_url:         /images/spreadsheet.png
+    name:           App Wireframe
+    type:           App UX/UI Design
+    url:            pages/spreadsheet
+
+  - img_url:         /images/mysql.png
+    name:           Mysql
+    type:           Web Design &amp; Development
+    url:            pages/mysql
+
+  - img_url:         /images/the_fan.png
+    name:           104.3 The Fan
+    type:           Mobile App Design
+    url:            /post/delivering_a_bunch_of_mediocre_features/
+
+  - img_url:         /images/bootstrap.png
+    name:           Bootstrap Template
+    type:           Other
+    url:            https://layervault.com/rev/uh6T7IuzAS
