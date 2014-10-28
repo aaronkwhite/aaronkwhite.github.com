@@ -1,41 +1,49 @@
   
   <footer>
+
     <div class="row">
-        <div class="large-6 columns">
-          <p>Really Tall... Really Amazing!</p>
-        </div><!-- /four-two -->
+      <div class="small-9 small-centered columns">
 
-        <div class="large-6 columns">
-          <p class="copy">Copyright 2008-{{ site.time | date: "%Y" }} - Aaron K. White - All Rights Reserved</p>
-        </div><!-- /four-two -->
+        <ul class="inline-list">
+          <li><i class="ss-yoga marker"></i> &copy; {{ site.time | date: "%Y" }} &nbsp;&nbsp;REALLY TALL... REALLY AMAZING!</li>
+          <li><a href="http://www.entrepreneurialbynature.com"><i class="ss-location marker"></i> BUILT IN COLORFUL COLORADO</a></li>
+        </ul>
 
-      </div><!-- /row -->
+      </div><!-- /small-8 -->
+    </div><!-- /row -->
+
   </footer>
 
 
-
+    </div> 
+  </section>
 
 
     
-  <script src="{{ relative }}javascripts/jquery-1.9.1.min.js"></script>
+  <script src="{{ baseurl }}javascripts/jquery-2.1.0.min.js"></script>
 
   <script type="text/javascript" src="//use.typekit.net/ifh6zvt.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
-  <script type="text/javascript" src="{{ relative }}javascripts/hw-parallax.min.js"></script>
   <script>
     $('.parallax').parallax({
-      scroll_factor: 0.5
+      scroll_factor: 0.6
     });
   </script>
-  <script src="{{ relative }}javascripts/scripts.js"></script>
+
+  <script src="{{ baseurl }}javascripts/foundation/foundation.js"></script>
+  <script src="{{ baseurl }}javascripts/waypoints.min.js"></script>
+  <script src="{{ baseurl }}javascripts/scripts.js"></script>
+
+  <script>
+    $(document).foundation();
+  </script>
 
 
   <script type="text/javascript">
-
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-8416948-1']);
+    _gaq.push(['_setAccount', '{{ site.ga_id }}']);
     _gaq.push(['_trackPageview']);
 
     (function() {
@@ -43,7 +51,6 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-
   </script>
 
 
