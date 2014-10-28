@@ -14829,5 +14829,32 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0; }
   100% {
     opacity: 1; } }
+  #hero .btn-outline-alt {
+    border-style: solid;
+    border-width: 0px;
+    cursor: pointer;
+    font-family: "brandon-grotesque", "HelveticaNeue Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 0.8333333333rem;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding-top: 0.3333333333rem;
+    padding-right: 0.6666666667rem;
+    padding-bottom: 0.375rem;
+    padding-left: 0.6666666667rem;
+    border-radius: 3px;
+    background: rgba(62, 55, 99, 0.6);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 0.4166666667rem 2.6666666667rem; }
+    #hero .btn-outline-alt:hover {
+      color: #cccccc;
+      border-color: #cccccc; }
+
 .about {
   text-align: center; }

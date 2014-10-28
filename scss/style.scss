@@ -59,6 +59,28 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     @include fadeIn(4s, $global-function, 1s);
   }
+  .more {
+    
+  }
+  .btn-outline-alt {
+    @include button(
+      rem-calc(8),
+      false,
+      true,
+      false,
+      false
+    );
+    background: rgba(62,55,99,0.6);
+    border: 1px solid $white;
+    color: $white;
+    font-size: rem-calc(24);
+    font-weight: 100;
+    padding: rem-calc(10) rem-calc(64);
+    &:hover {
+      color: darken($white, 20%);
+      border-color: darken($white, 20%);
+    }
+  }
 }
 
 .about {
