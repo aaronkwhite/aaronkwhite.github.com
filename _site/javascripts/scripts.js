@@ -1,66 +1,42 @@
-/**
- * Parallax Scrolling Tutorial
- * For Smashing Magazine
- * July 2011
- *   
- * Author: Richard Shepherd
- *       www.richardshepherd.com
- *       @richardshepherd   
- */
 
-// On your marks, get set...
-$(document).ready(function(){
-            
-  // Cache the Window object
-  $window = $(window);
-  
-  // Cache the Y offset and the speed of each sprite
-  $('[data-type]').each(function() {  
-    $(this).data('offsetY', parseInt($(this).attr('data-offsetY')));
-    $(this).data('Xposition', $(this).attr('data-Xposition'));
-    $(this).data('speed', $(this).attr('data-speed'));
-  });
-  
-  // For each element that has a data-type attribute
-  $('section[data-type="background"]').each(function(){
-  
-  
-    // Store some variables based on where we are
-    var $self = $(this),
-      offsetCoords = $self.offset(),
-      topOffset = offsetCoords.top;
-    
-    // When the window is scrolled...
-      $(window).scroll(function() {
-  
-      // If this section is in view
-      if ( ($window.scrollTop() + $window.height()) > (topOffset) &&
-         ( (topOffset + $self.height()) > $window.scrollTop() ) ) {
-  
-        // Scroll the background at var speed
-        // the yPos is a negative value because we're scrolling it UP!                
-        var yPos = -($window.scrollTop() / $self.data('speed')); 
-        
-        // If this element has a Y offset then add it on
-        if ($self.data('offsetY')) {
-          yPos += $self.data('offsetY');
-        }
-        
-        // Put together our final background position
-        var coords = '50% '+ yPos + 'px';
+/*
+* FitText.js 1.2
+*/
 
-        // Move the background
-        $self.css({ backgroundPosition: coords });
-        
-        
-      
-      }; // in view
-  
-    }); // window scroll
-      
-  }); // each data-type
+(function( $ ){
 
-}); // document ready
+  $.fn.fitText = function( kompressor, options ) {
+
+    // Setup options
+    var compressor = kompressor || 1,
+        settings = $.extend({
+          'minFontSize' : Number.NEGATIVE_INFINITY,
+          'maxFontSize' : Number.POSITIVE_INFINITY
+        }, options);
+
+    return this.each(function(){
+
+      // Store the object
+      var $this = $(this);
+
+      // Resizer() resizes items based on the object width divided by the compressor * 10
+      var resizer = function () {
+        $this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize)));
+      };
+
+      // Call once to set.
+      resizer();
+
+      // Call on resize. Opera debounces their resize by default.
+      $(window).on('resize.fittext orientationchange.fittext', resizer);
+
+    });
+
+  };
+
+})( jQuery );
+
+jQuery("#hero h1").fitText(1.2, { minFontSize: '48px', maxFontSize: '80px' });
 
 
 //Responsive Video Hack
@@ -94,4 +70,28 @@ $(function() {
   
   }).resize();
 
+});
+
+//Parallax
+$('.parallax').parallax({
+  scroll_factor: 0.5
+});
+
+
+// Waypoints Header
+$(function() {
+  //$('.my-nav').hide();
+  $('.show-nav').waypoint(function (direction) {
+      if (direction == 'down')
+
+        $("#main-nav").addClass('purple', function() {
+          $(this).fadeIn(800);
+        });
+
+      else {
+          $('.my-nav').removeClass('purple');;
+      }
+  }, {
+      offset: $.waypoints('viewportHeight') / 8
+  });
 });

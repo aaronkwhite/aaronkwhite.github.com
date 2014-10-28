@@ -2,16 +2,65 @@
 @import 'variables';
 @import 'foundation/settings';
 @import 'foundation';
-//@import 'parallax';
+@import 'parallax';
 @import 'animate';
-
+@import 'mixins';
 
 body {
   background: $white;
-  font-family: "brandon-grotesque", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "ff-tisa-web-pro", serif;
-  font-weight: 400;
+  font-weight: 300;
+}
+
+
+.lead {
+  margin-bottom: rem-calc(120);
+  header {
+    //color: $purpleDark;
+    font-size: rem-calc(14);
+  }
+  h2 {
+    margin-bottom: rem-calc(4);
+  }
+}
+
+
+
+#hero {
+  min-height: 100%;
+  padding-top: rem-calc(24);
+  h1 {
+    color: $white;
+    text-align: center;
+  }
+  p {
+    color: $white;
+  }
+  .my-image {
+    margin: 0;
+    padding-right: rem-calc(18);
+
+    img {
+      @include circle(40px);
+    }
+  }
+  .my-name {
+    line-height: rem-calc(40); 
+    margin: 0;
+    vertical-align: middle;
+  }
+  .tagline {
+    font-size: rem-calc(64); 
+    font-weight: 400;
+    margin-top: rem-calc(360);
+    position: relative;
+    text-align: center;
+    @include fadeIn(4s, $global-function, 1s);
+  }
+}
+
+.about {
+  text-align: center;
 }
