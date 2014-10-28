@@ -12,3 +12,4 @@ nbproject
 *.sublime-workspace
 *.codekit
 .sass-cache
+*.swp
