@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   min-height: 100%;
   padding-top: rem-calc(24);
+  position: relative;
   h1 {
     color: $white;
     text-align: center;
@@ -38,6 +39,16 @@ h1, h2, h3, h4, h5, h6 {
   p {
     color: $white;
   }
+  
+  .tag {
+
+    text-align: center;
+
+    @media #{$medium-up} {
+      margin-top: 11rem;
+    }
+  }
+
   .my-image {
     margin: 0;
     padding-right: rem-calc(18);
