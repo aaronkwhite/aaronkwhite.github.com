@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   h1 {
     color: $white;
     text-align: center;
+    @include fadeIn(4s, $global-function, 1s);
   }
   p {
     color: $white;
@@ -43,9 +44,12 @@ h1, h2, h3, h4, h5, h6 {
   .tag {
 
     text-align: center;
-
+    
+    @media #{$small-up} {
+      margin-top: 10rem;
+    }
     @media #{$medium-up} {
-      margin-top: 11rem;
+      margin-top: 8rem;
     }
   }
 
@@ -96,4 +100,60 @@ h1, h2, h3, h4, h5, h6 {
 
 .about {
   text-align: center;
+}
+
+
+
+
+footer {
+  background: $blueDark;
+  color: $greyDark;
+  padding: rem-calc(32) 0;
+  .marker {
+    color: $blue;
+    float: left;
+    font-size: rem-calc(20);
+    padding: 0 rem-calc(12) 0 rem-calc(18);
+    vertical-align: middle;
+  }
+  a {
+    color: $greyDark;
+    font-weight: 300;
+    &:hover {
+      color: $purple!important;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 0!important;
+    text-align: center;
+    li {
+      display: inline-block;
+      font-size: rem-calc(16);
+    }
+
+  }
+
+  #social {
+    margin-top: rem-calc(24);
+    padding: rem-calc(80) 0;
+    text-align: center;
+
+    ul {
+      margin: 0 auto;
+
+      li {
+        padding: 0 rem-calc(24);
+        vertical-align: middle;
+        font-size: rem-calc(24);
+        a {
+          
+        }
+      }
+    }
+    .platform {
+      margin-bottom: rem-calc(40);
+    }
+  }
 }

@@ -36,7 +36,7 @@
 
 })( jQuery );
 
-jQuery("#hero h1").fitText(1.2, { minFontSize: '48px', maxFontSize: '80px' });
+jQuery("#hero h1").fitText(1.2, { minFontSize: '40px', maxFontSize: '80px' });
 
 
 //Responsive Video Hack

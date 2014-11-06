@@ -14782,14 +14782,45 @@ h1, h2, h3, h4, h5, h6 {
   position: relative; }
   #hero h1 {
     color: #ffffff;
-    text-align: center; }
+    text-align: center;
+    -webkit-animation: fadeIn 4s ease 1s 1 both;
+    -moz-animation: fadeIn 4s ease 1s 1 both;
+    animation: fadeIn 4s ease 1s 1 both;
+    -webkit-animation-backface-visibility: hidden;
+    -moz-animation-backface-visibility: hidden;
+    -ms-animation-backface-visibility: hidden;
+    -o-animation-backface-visibility: hidden;
+    animation-backface-visibility: hidden; }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
   #hero p {
     color: #ffffff; }
   #hero .tag {
     text-align: center; }
+    @media only screen {
+      #hero .tag {
+        margin-top: 10rem; } }
     @media only screen and (min-width: 40.063em) {
       #hero .tag {
-        margin-top: 11rem; } }
+        margin-top: 8rem; } }
   #hero .my-image {
     margin: 0;
     padding-right: 0.75rem; }
@@ -14893,3 +14924,38 @@ h1, h2, h3, h4, h5, h6 {
 
 .about {
   text-align: center; }
+
+footer {
+  background: #2b3442;
+  color: #95a5a6;
+  padding: 1.3333333333rem 0; }
+  footer .marker {
+    color: #52b3d9;
+    float: left;
+    font-size: 0.8333333333rem;
+    padding: 0 0.5rem 0 0.75rem;
+    vertical-align: middle; }
+  footer a {
+    color: #95a5a6;
+    font-weight: 300; }
+    footer a:hover {
+      color: #9390e7 !important; }
+  footer ul {
+    list-style: none;
+    margin-bottom: 0 !important;
+    text-align: center; }
+    footer ul li {
+      display: inline-block;
+      font-size: 0.6666666667rem; }
+  footer #social {
+    margin-top: 1rem;
+    padding: 3.3333333333rem 0;
+    text-align: center; }
+    footer #social ul {
+      margin: 0 auto; }
+      footer #social ul li {
+        padding: 0 1rem;
+        vertical-align: middle;
+        font-size: 1rem; }
+    footer #social .platform {
+      margin-bottom: 1.6666666667rem; }
