@@ -40,16 +40,19 @@ h1, h2, h3, h4, h5, h6 {
   p {
     color: $white;
   }
+  a {
+    color: $white;
+  }
   
   .tag {
 
     text-align: center;
     
     @media #{$small-up} {
-      margin-top: 10rem;
+      margin-top: 3%;
     }
     @media #{$medium-up} {
-      margin-top: 8rem;
+      margin-top: 5%;
     }
   }
 
@@ -95,6 +98,28 @@ h1, h2, h3, h4, h5, h6 {
       color: darken($white, 20%);
       border-color: darken($white, 20%);
     }
+  }
+}
+
+#nav-dropdown {
+  margin-top: rem-calc(12);
+  width: rem-calc(48);
+  li {
+    font-size: rem-calc(24);
+    a {
+      color: $purpleDark;
+    }
+  }
+}
+
+.nav-menu {
+  .nav-toggle {
+    display: block;
+    height: 24px;
+    width: 24px;
+  }
+  @media #{$small-only} {
+    display: none;
   }
 }
 

@@ -14813,14 +14813,16 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1; } }
   #hero p {
     color: #ffffff; }
+  #hero a {
+    color: #ffffff; }
   #hero .tag {
     text-align: center; }
     @media only screen {
       #hero .tag {
-        margin-top: 10rem; } }
+        margin-top: 3%; } }
     @media only screen and (min-width: 40.063em) {
       #hero .tag {
-        margin-top: 8rem; } }
+        margin-top: 5%; } }
   #hero .my-image {
     margin: 0;
     padding-right: 0.75rem; }
@@ -14921,6 +14923,22 @@ h1, h2, h3, h4, h5, h6 {
     #hero .btn-outline-alt:hover {
       color: #cccccc;
       border-color: #cccccc; }
+
+#nav-dropdown {
+  margin-top: 0.5rem;
+  width: 2rem; }
+  #nav-dropdown li {
+    font-size: 1rem; }
+    #nav-dropdown li a {
+      color: #3e3763; }
+
+.nav-menu .nav-toggle {
+  display: block;
+  height: 24px;
+  width: 24px; }
+@media only screen and (max-width: 40em) {
+  .nav-menu {
+    display: none; } }
 
 .about {
   text-align: center; }
