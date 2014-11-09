@@ -14925,12 +14925,15 @@ h1, h2, h3, h4, h5, h6 {
       border-color: #cccccc; }
 
 #nav-dropdown {
-  margin-top: 0.5rem;
   width: 2rem; }
   #nav-dropdown li {
     font-size: 1rem; }
+    #nav-dropdown li:hover {
+      background: transparent; }
     #nav-dropdown li a {
       color: #3e3763; }
+      #nav-dropdown li a:hover {
+        color: #9390e7; }
 
 .nav-menu .nav-toggle {
   display: block;

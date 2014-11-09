@@ -102,12 +102,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav-dropdown {
-  margin-top: rem-calc(12);
   width: rem-calc(48);
   li {
     font-size: rem-calc(24);
+    &:hover {
+      background: transparent;
+    }
     a {
       color: $purpleDark;
+      &:hover {
+        color: $purple;
+      }
     }
   }
 }
