@@ -45,14 +45,12 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .tag {
-
     text-align: center;
-    
-    @media #{$small-up} {
-      margin-top: 3%;
+    @media #{$small-only} {
+      margin-top: rem-calc(128);
     }
     @media #{$medium-up} {
-      margin-top: 5%;
+      margin-top: rem-calc(128);
     }
   }
 
@@ -77,9 +75,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     @include fadeIn(4s, $global-function, 1s);
   }
+  
   .more {
+    margin-top: rem-calc(64);
     @include fadeIn(4s, $global-function, 2s);
   }
+
   .btn-outline-alt {
     @include button(
       rem-calc(8),
@@ -117,12 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.nav-menu {
-  .nav-toggle {
-    display: block;
-    height: 24px;
-    width: 24px;
-  }
+.my-menu {
   @media #{$small-only} {
     display: none;
   }

@@ -14817,12 +14817,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff; }
   #hero .tag {
     text-align: center; }
-    @media only screen {
+    @media only screen and (max-width: 40em) {
       #hero .tag {
-        margin-top: 3%; } }
+        margin-top: 5.3333333333rem; } }
     @media only screen and (min-width: 40.063em) {
       #hero .tag {
-        margin-top: 5%; } }
+        margin-top: 5.3333333333rem; } }
   #hero .my-image {
     margin: 0;
     padding-right: 0.75rem; }
@@ -14869,6 +14869,7 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     opacity: 1; } }
   #hero .more {
+    margin-top: 2.6666666667rem;
     -webkit-animation: fadeIn 4s ease 2s 1 both;
     -moz-animation: fadeIn 4s ease 2s 1 both;
     animation: fadeIn 4s ease 2s 1 both;
@@ -14935,12 +14936,8 @@ h1, h2, h3, h4, h5, h6 {
       #nav-dropdown li a:hover {
         color: #9390e7; }
 
-.nav-menu .nav-toggle {
-  display: block;
-  height: 24px;
-  width: 24px; }
 @media only screen and (max-width: 40em) {
-  .nav-menu {
+  .my-menu {
     display: none; } }
 
 .about {

@@ -36,7 +36,7 @@
 
 })( jQuery );
 
-jQuery("#hero h1").fitText(1.2, { minFontSize: '40px', maxFontSize: '80px' });
+jQuery("#hero h1").fitText(1.2, { minFontSize: '24px', maxFontSize: '80px' });
 
 
 //Responsive Video Hack
@@ -97,13 +97,26 @@ $(function() {
 });
 
 
+$(document).foundation({
+  dropdown: {
+    // specify the class used for active dropdowns
+    active_class: 'open'
+  }
+});
 
 
+$('a[href^="#"]').on('click', function(event) {
 
+    var target = $( $(this).attr('href') );
 
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
 
-
-
+});
 
 
 
