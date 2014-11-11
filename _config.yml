@@ -29,6 +29,14 @@ site_name:          Aaron K. White
 site_url:           http://aaronkwhite.com
 site_email:         info@waaronkwhite.com
 
+
+# Social Profiles
+twitter_url:        http://twitter.com/aaronkwhite
+facebook_url:       http://facebook.com/aaronkwhite
+linkedin_url:       http://linkedin.com/in/aaronkwhite
+dribbble_url:       http://dribbble.com/aaronkwhite
+github_url:         http://github.com/aaronkwhite
+
 # Portfolio Items
 portfolios:
   - img_url:         /images/walletdata.png

@@ -14770,6 +14770,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
+a {
+  color: #9390e7; }
+  a:hover {
+    text-decoration: underline; }
+
 .lead {
   margin-bottom: 5rem; }
   .lead header {
@@ -14827,7 +14832,10 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 5.3333333333rem; } }
     @media only screen and (min-width: 40.063em) {
       #hero .tag {
-        margin-top: 5.3333333333rem; } }
+        margin-top: 6.3333333333rem; } }
+    @media only screen and (min-width: 90.063em) {
+      #hero .tag {
+        margin-top: 10.6666666667rem; } }
   #hero .my-image {
     margin: 0;
     padding-right: 0.75rem; }
@@ -14939,7 +14947,8 @@ h1, h2, h3, h4, h5, h6 {
     #nav-dropdown li a {
       color: #3e3763; }
       #nav-dropdown li a:hover {
-        color: #9390e7; }
+        color: #9390e7;
+        text-decoration: none; }
 
 @media only screen and (max-width: 40em) {
   .my-menu {
@@ -14958,6 +14967,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0; }
 #writings .writings-list .date {
   color: #9390e7; }
+#writings a {
+  color: #3e3763; }
 
 footer {
   background: #2b3442;

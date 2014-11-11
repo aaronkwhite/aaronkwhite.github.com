@@ -15,6 +15,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+a {
+  color: $purple;
+  &:hover {
+    text-decoration: underline;
+  }
+}
 
 .lead {
   margin-bottom: rem-calc(120);
@@ -54,7 +60,10 @@ h1, h2, h3, h4, h5, h6 {
       margin-top: rem-calc(128);
     }
     @media #{$medium-up} {
-      margin-top: rem-calc(128);
+      margin-top: rem-calc(152);
+    }
+    @media #{$xlarge-up} {
+      margin-top: rem-calc(256);
     }
   }
 
@@ -117,6 +126,7 @@ h1, h2, h3, h4, h5, h6 {
       color: $purpleDark;
       &:hover {
         color: $purple;
+        text-decoration: none;
       }
     }
   }
@@ -148,6 +158,9 @@ h1, h2, h3, h4, h5, h6 {
     .date {
       color: $purple;
     }
+  }
+  a {
+    color: $purpleDark;
   }
 }
 
