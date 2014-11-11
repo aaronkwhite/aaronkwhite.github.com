@@ -8,6 +8,7 @@
 
 body {
   background: $white;
+  font-weight: 100;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .subheader {
+  font-weight: 100;
   margin-bottom: rem-calc(40);
 }
 
@@ -137,10 +139,14 @@ h1, h2, h3, h4, h5, h6 {
     }
     h3 {
       margin: 0 0 rem-calc(8) 0;
+      font-weight: 100;
     }
     p {
       font-size: rem-calc(18);
       margin: 0;
+    }
+    .date {
+      color: $purple;
     }
   }
 }

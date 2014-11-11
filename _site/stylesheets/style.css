@@ -14764,7 +14764,8 @@ body {
   -webkit-backface-visibility: hidden; }
 
 body {
-  background: #ffffff; }
+  background: #ffffff;
+  font-weight: 100; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
@@ -14777,6 +14778,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.1666666667rem; }
 
 .subheader {
+  font-weight: 100;
   margin-bottom: 1.6666666667rem; }
 
 #hero {
@@ -14949,10 +14951,13 @@ h1, h2, h3, h4, h5, h6 {
 #writings .writings-list li {
   margin: 0 0 1rem 0; }
 #writings .writings-list h3 {
-  margin: 0 0 0.3333333333rem 0; }
+  margin: 0 0 0.3333333333rem 0;
+  font-weight: 100; }
 #writings .writings-list p {
   font-size: 0.75rem;
   margin: 0; }
+#writings .writings-list .date {
+  color: #9390e7; }
 
 footer {
   background: #2b3442;
