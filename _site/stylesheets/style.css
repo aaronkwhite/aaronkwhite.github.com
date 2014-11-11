@@ -14776,6 +14776,9 @@ h1, h2, h3, h4, h5, h6 {
   .lead h2 {
     margin-bottom: 0.1666666667rem; }
 
+.subheader {
+  margin-bottom: 1.6666666667rem; }
+
 #hero {
   min-height: 100%;
   padding-top: 1rem;
@@ -14942,6 +14945,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .about {
   text-align: center; }
+
+#writings .writings-list li {
+  margin: 0 0 1rem 0; }
+#writings .writings-list h3 {
+  margin: 0 0 0.3333333333rem 0; }
+#writings .writings-list p {
+  font-size: 0.75rem;
+  margin: 0; }
 
 footer {
   background: #2b3442;
