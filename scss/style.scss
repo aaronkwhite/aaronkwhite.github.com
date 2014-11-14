@@ -22,6 +22,25 @@ a {
   }
 }
 
+.btn-outline {
+  @include button(
+    rem-calc(8),
+    false,
+    true,
+    false,
+    false
+  );
+  border: 1px solid $purple;
+  color: $purple;
+  font-size: rem-calc(16);
+  &:hover {
+    color: darken($purple, 20%);
+    border-color: darken($purple, 20%);
+    text-decoration: none;
+  }
+}
+
+
 .lead {
   margin-bottom: rem-calc(120);
   header {
@@ -93,7 +112,7 @@ a {
     margin-top: rem-calc(64);
     @include fadeIn(4s, $global-function, 2s);
   }
-
+  
   .btn-outline-alt {
     @include button(
       rem-calc(8),
@@ -140,6 +159,41 @@ a {
 
 .about {
   text-align: center;
+}
+
+
+.portfolio {
+  li {
+    margin: 1rem 0;
+  }
+  .shot-item {
+    overflow: hidden;
+    position: relative;
+    h4 {
+      color: darken($purple, 10%);
+      font-family: "brandon-grotesque", sans-serif;
+    }
+    img {
+      border: 1px solid $greyLight;
+    }
+  }
+  .shot-over {
+    background: rgba(255,255,255,0.95);
+    opacity: 0;
+    padding-top: 3rem;
+    @media #{$large-up} { padding-top: 1.5rem; }
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity .35s ease;
+    -moz-transition: opacity .35s ease;
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
 
 #writings {

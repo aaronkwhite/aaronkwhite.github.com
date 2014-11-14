@@ -47,4 +47,25 @@ title: Aaron K. White - Really Tall... Really Amazing!
 
 {% include about.html %}
 
+
+
+<section id="shiny-things" class="row lead">
+  <article class="portfolio small-9 small-centered large-centered columns">
+    <header>
+        <h2>Shiny Things...</h2>
+        <h4 class="subheader">I am the designer of things!</h4>
+    </header>
+    <section>
+        <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+          {% for portfolio in site.portfolios limit: 6 %}
+              {% include shiny.html %}
+          {% endfor %}
+        </ul>
+    </section>
+     <section class="text-center">
+        <a href="{{ baseurl }}/portfolio" class="btn-outline">View More</a>
+    </section>
+  </article>
+</section>
+
 {% include writings.html %}

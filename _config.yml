@@ -44,7 +44,7 @@ portfolios:
     type:           Site &amp; Application Branding, Design and Development
     url:            /pages/walletdata
 
-  - img_url:         /images/prototype_bot.png
+  - img_url:         /images/prototypebot.png
     name:           Prototypebot
     type:           Logo design
     url:            /pages/prototypebot
@@ -64,7 +64,7 @@ portfolios:
     type:           Mobile App Design
     url:            /post/delivering_a_bunch_of_mediocre_features/
 
-  - img_url:         /images/bootstrap.png
+  - img_url:         /images/bootstrap-template.png
     name:           Bootstrap Template
     type:           Other
     url:            https://layervault.com/rev/uh6T7IuzAS
