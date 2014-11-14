@@ -78,25 +78,6 @@ $('.parallax').parallax({
 });
 
 
-// Waypoints Header
-$(function() {
-  //$('.my-nav').hide();
-  $('.show-nav').waypoint(function (direction) {
-      if (direction == 'down')
-
-        $("#main-nav").addClass('purple', function() {
-          $(this).fadeIn(800);
-        });
-
-      else {
-          $('.my-nav').removeClass('purple');;
-      }
-  }, {
-      offset: $.waypoints('viewportHeight') / 8
-  });
-});
-
-
 $(document).foundation({
   dropdown: {
     // specify the class used for active dropdowns

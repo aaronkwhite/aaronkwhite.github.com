@@ -59,12 +59,17 @@ portfolios:
     type:           Web Design &amp; Development
     url:            pages/mysql
 
-  - img_url:         /images/the_fan.png
-    name:           104.3 The Fan
-    type:           Mobile App Design
-    url:            /post/delivering_a_bunch_of_mediocre_features/
+  - img_url:         /images/dual-track.png
+    name:           Dual Track Agile
+    type:           Presentation Talk Agile
+    url:            /post/kick-agiles-ass
 
   - img_url:         /images/bootstrap-template.png
     name:           Bootstrap Template
     type:           Other
     url:            https://layervault.com/rev/uh6T7IuzAS
+
+  - img_url:         /images/the_fan.png
+    name:           104.3 The Fan
+    type:           Mobile App Design
+    url:            /post/delivering_a_bunch_of_mediocre_features/
