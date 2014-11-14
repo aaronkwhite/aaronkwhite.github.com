@@ -79,10 +79,10 @@ a {
       margin-top: rem-calc(128);
     }
     @media #{$medium-up} {
-      margin-top: rem-calc(152);
+      margin-top: rem-calc(144);
     }
     @media #{$xlarge-up} {
-      margin-top: rem-calc(256);
+      margin-top: rem-calc(200);
     }
   }
 
