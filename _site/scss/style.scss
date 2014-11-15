@@ -44,7 +44,6 @@ a {
 .lead {
   margin-bottom: rem-calc(120);
   header {
-    //color: $purpleDark;
     font-size: rem-calc(14);
   }
   h2 {
@@ -218,7 +217,31 @@ a {
   }
 }
 
+#page-nav {
+  background: $purpleDark;
+  padding-top: rem-calc(24);
+  margin-bottom: rem-calc(24);
+  .my-image {
+    margin: 0;
+    padding-right: rem-calc(18);
 
+    img {
+      @include circle(40px);
+    }
+  }
+  .my-name {
+    color: $white;
+    line-height: rem-calc(40); 
+    margin: 0;
+    vertical-align: middle;
+  }
+}
+
+#page {
+  .lead {
+    margin-bottom: rem-calc(120);
+  }
+}
 footer {
   background: $blueDark;
   color: $greyDark;

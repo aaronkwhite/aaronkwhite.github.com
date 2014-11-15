@@ -9,14 +9,26 @@
     <section>
       
       <ul class="writings-list no-bullet">
+
         {% for post in site.posts limit: 10 %}
-          <li>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p class="date">
-              {{ post.date | date: "%B %d, %Y" }}
-            </p>
-          </li>
+
+          {% if post.categories contains "pages" %}
+            
+          {% else if %}
+            <li>
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <p class="date">
+                {{ post.date | date: "%B %d, %Y" }}
+              </p>
+              <p class="date">
+                {{ post.category}}
+              </p>
+            </li>
+
+          {% endif %}
+
         {% endfor %}
+
       </ul>
     </section>
 </section>

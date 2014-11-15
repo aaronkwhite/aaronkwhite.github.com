@@ -42,27 +42,27 @@ portfolios:
   - img_url:         /images/walletdata.png
     name:           Walletdata.io
     type:           Site &amp; Application Branding, Design and Development
-    url:            /pages/walletdata
+    url:            /shiny/walletdata
 
   - img_url:         /images/prototypebot.png
     name:           Prototypebot
     type:           Logo design
-    url:            /pages/prototypebot
+    url:            /shiny/prototypebot
 
   - img_url:         /images/spreadsheet.png
     name:           App Wireframe
     type:           App UX/UI Design
-    url:            pages/spreadsheet
+    url:            /shiny/spreadsheet-app
 
   - img_url:         /images/mysql.png
     name:           Mysql
     type:           Web Design &amp; Development
-    url:            pages/mysql
+    url:            /shiny/mysql
 
   - img_url:         /images/dual-track.png
     name:           Dual Track Agile
     type:           Presentation Talk Agile
-    url:            /post/kick-agiles-ass
+    url:            /shiny/kick-agiles-ass
 
   - img_url:         /images/bootstrap-template.png
     name:           Bootstrap Template
@@ -72,4 +72,4 @@ portfolios:
   - img_url:         /images/the_fan.png
     name:           104.3 The Fan
     type:           Mobile App Design
-    url:            /post/delivering_a_bunch_of_mediocre_features/
+    url:            /shiny/delivering_a_bunch_of_mediocre_features/

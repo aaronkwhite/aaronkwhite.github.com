@@ -15023,6 +15023,26 @@ a {
 #writings a {
   color: #3e3763; }
 
+#page-nav {
+  background: #3e3763;
+  padding-top: 0.8571428571rem;
+  margin-bottom: 0.8571428571rem; }
+  #page-nav .my-image {
+    margin: 0;
+    padding-right: 0.6428571429rem; }
+    #page-nav .my-image img {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%; }
+  #page-nav .my-name {
+    color: #ffffff;
+    line-height: 1.4285714286rem;
+    margin: 0;
+    vertical-align: middle; }
+
+#page .lead {
+  margin-bottom: 4.2857142857rem; }
+
 footer {
   background: #2b3442;
   color: #95a5a6;

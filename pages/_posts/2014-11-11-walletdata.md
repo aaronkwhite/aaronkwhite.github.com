@@ -2,8 +2,9 @@
 layout: page
 title: Walletdata.io
 description: "Cryptocurrency Wallet Dashboard App"
-permalink: /pages/walletdata
+permalink: /shiny/walletdata
 category:
+  - Page
   - Design
   - Development
   - Application
@@ -18,4 +19,3 @@ tags:
   - Dashboard
 ---
 
-# WalletData.io
