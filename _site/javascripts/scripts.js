@@ -72,7 +72,7 @@ $(function() {
 
 });
 
-//Parallax
+// Parallax
 $('.parallax').parallax({
   scroll_factor: 0.5
 });
@@ -86,18 +86,22 @@ $(document).foundation({
 });
 
 
+// Hero scroll to anchor
 $('a[href^="#"]').on('click', function(event) {
-
     var target = $( $(this).attr('href') );
-
     if( target.length ) {
         event.preventDefault();
         $('html, body').animate({
             scrollTop: target.offset().top
         }, 1000);
     }
-
 });
 
-
+// Proper go to previous page link
+$(document).ready(function(){
+    $('.takemeback').click(function(){
+        parent.history.back();
+        return false;
+    });
+});
 

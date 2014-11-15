@@ -3,22 +3,35 @@ layout: default
 title: Aaron K. White - Really Tall... Really Amazing!
 ---
 
-<section id="aaron-bg" class="parallax" data-image="{{ relative }}images/light.jpg" data-width="1600" data-height="600">
-  <div class="row">
-    <div class="large-12 columns">
-      <h3>things i write...</h3>
-    </div>
-  </div><!-- /row -->
 
+<section id="writings" class="row lead">
+  <article class="about small-9 small-centered large-centered columns">
+    
+    <header>
+      <h2>Things I Write...</h2>
+      <p> {{ page.description }}</p>
+      <h4 class="subheader">I don't write often, but when I do it's Dos Equis!</h4>
+    </header>
+    
+    <section>
+      <ul class="writings-list no-bullet">
+
+        {% for post in site.posts %}
+
+          {% if post.categories contains "pages" %}
+            
+          {% else if %}
+            <li>
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <p class="date">
+                {{ post.date | date: "%B %d, %Y" }}
+              </p>
+            </li>
+
+          {% endif %}
+
+        {% endfor %}
+
+      </ul>
+    </section>
 </section>
-
-{% for post in site.posts %}
-  <div class="row">
-    <div class="large-12 columns">
-      <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p class="meta">
-         <span class="ss-calendar"></span> {{ post.date | date: "%B %d, %Y" }}
-      </p>
-    </div>
-  </div>
-{% endfor %}

@@ -10,7 +10,7 @@
       
       <ul class="writings-list no-bullet">
 
-        {% for post in site.posts limit: 10 %}
+        {% for post in site.posts limit: 15 %}
 
           {% if post.categories contains "pages" %}
             
@@ -19,9 +19,6 @@
               <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
               <p class="date">
                 {{ post.date | date: "%B %d, %Y" }}
-              </p>
-              <p class="date">
-                {{ post.category}}
               </p>
             </li>
 
