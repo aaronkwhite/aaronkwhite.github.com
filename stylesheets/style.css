@@ -15042,6 +15042,32 @@ a {
 
 #page .lead {
   margin-bottom: 4.2857142857rem; }
+#page .marker {
+  font-size: 0.6428571429rem; }
+#page a:hover {
+  text-decoration: none; }
+
+#post .lead {
+  margin-bottom: 4.2857142857rem; }
+#post i {
+  font-size: 0.5714285714rem; }
+#post .ss-twitter {
+  font-size: 0.8571428571rem; }
+#post a:hover {
+  text-decoration: none; }
+
+#page .takemeback,
+#post .takemeback {
+  font-size: 0.5714285714rem; }
+  #page .takemeback i,
+  #post .takemeback i {
+    font-size: 0.4285714286rem; }
+  #page .takemeback a,
+  #post .takemeback a {
+    color: #95a5a6; }
+    #page .takemeback a:hover,
+    #post .takemeback a:hover {
+      color: #9390e7; }
 
 footer {
   background: #2b3442;

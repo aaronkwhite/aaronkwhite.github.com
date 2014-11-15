@@ -62,7 +62,7 @@ portfolios:
   - img_url:         /images/dual-track.png
     name:           Dual Track Agile
     type:           Presentation Talk Agile
-    url:            /shiny/kick-agiles-ass
+    url:            /post/kick-agiles-ass/
 
   - img_url:         /images/bootstrap-template.png
     name:           Bootstrap Template

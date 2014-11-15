@@ -19,3 +19,9 @@ tags:
   - Dashboard
 ---
 
+<section class="row lead">
+  <div class="small-12 columns text-center">
+    <img data-interchange="[/images/walletdata-full@2x.png, (retina)]" />
+    <noscript><img src="/images/walletdata-full.png" /></noscript>
+  </div>
+</section>

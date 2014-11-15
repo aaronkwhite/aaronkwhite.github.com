@@ -241,7 +241,47 @@ a {
   .lead {
     margin-bottom: rem-calc(120);
   }
+  .marker {
+    font-size: rem-calc(18);
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
+
+#post {
+  .lead {
+    margin-bottom: rem-calc(120);
+  }
+  i {
+    font-size: rem-calc(16);
+  }
+  .ss-twitter {
+    font-size: rem-calc(24);
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+#page .takemeback,
+#post .takemeback {
+  font-size: rem-calc(16);
+  i {
+    font-size: rem-calc(12);
+  }
+  a {
+    color: $greyDark;
+    &:hover {
+      color: $purple;
+    }
+  }
+}
+
 footer {
   background: $blueDark;
   color: $greyDark;
