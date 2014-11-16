@@ -10,3 +10,6 @@ Thumbs.db
 nbproject
 *.sublime-project
 *.sublime-workspace
+*.codekit
+.sass-cache
+*.swp

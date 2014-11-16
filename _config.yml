@@ -1,20 +1,75 @@
-source:     .
-markdown:   rdiscount
-pygments:   true
-
-title:      Aaron K. White
-
-#url:        http://aaronkwhite.com
-permalink:  /post/:title/
+title:              Aaron K. White
+description:        Really Tall... Really Amazing!
 
 author:
-    name:       Aaron K. White
-    email:      aaron@aaronkwhite.com
-    github:     aaronkwhite
-    twitter:    aaronkwhite
-    gravatar:   http://www.gravatar.com/avatar/a12d1a571d63957f150117f18d87a69f.png
+    name:           Aaron K. White
+    email:          aaron@aaronkwhite.com
+    github:         aaronkwhite
+    twitter:        aaronkwhite
+    gravatar:       http://www.gravatar.com/avatar/a12d1a571d63957f150117f18d87a69f.png
 
-#comments:
-#    provider: disqus
-#    disqus:
-#        short_name: intheatticuk
+# Dependencies
+markdown:           rdiscount
+highlighter:        pygments
+
+# Server
+source:             .
+baseurl:            /
+port:               4000
+
+# Permalinks
+permalink:          pretty
+
+
+## CUSTOM VARS
+
+# Misc Vars
+ga_id:             UA-8416948-1
+site_name:          Aaron K. White
+site_url:           http://aaronkwhite.com
+site_email:         info@waaronkwhite.com
+
+
+# Social Profiles
+twitter_url:        http://twitter.com/aaronkwhite
+facebook_url:       http://facebook.com/aaronkwhite
+linkedin_url:       http://linkedin.com/in/aaronkwhite
+dribbble_url:       http://dribbble.com/aaronkwhite
+github_url:         http://github.com/aaronkwhite
+
+# Portfolio Items
+portfolios:
+  - img_url:         /images/walletdata-sm.png
+    name:           Walletdata.io
+    type:           Site &amp; Application Branding, Design and Development
+    url:            /shiny/walletdata
+
+  - img_url:         /images/prototypebot-sm.png
+    name:           Prototypebot
+    type:           Logo design
+    url:            /shiny/prototypebot
+
+  - img_url:         /images/spreadsheet-sm.png
+    name:           App Wireframe
+    type:           App UX/UI Design
+    url:            /shiny/spreadsheet-app
+
+  - img_url:         /images/mysql-sm.png
+    name:           Mysql
+    type:           Web Design &amp; Development
+    url:            /shiny/mysql
+
+  - img_url:         /images/dual-track-sm.png
+    name:           Dual Track Agile
+    type:           Presentation Talk Agile
+    url:            /post/kick-agiles-ass/
+
+  - img_url:         /images/bootstrap-template-sm.png
+    name:           Bootstrap Template
+    type:           Other
+    url:            https://layervault.com/rev/uh6T7IuzAS
+
+  - img_url:         /images/the_fan-sm.png
+    name:           104.3 The Fan
+    type:           Mobile App Design
+    url:            /shiny/delivering_a_bunch_of_mediocre_features/

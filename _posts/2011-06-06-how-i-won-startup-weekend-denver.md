@@ -2,6 +2,7 @@
 title: How I won Startup Weekend Denver
 author: Aaron
 layout: post
+permalink: /post/how-i-won-startup-weekend-denver
 dsq_thread_id:
   - 324062346
 categories:

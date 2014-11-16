@@ -2,6 +2,7 @@
 title: Super Bowl XLV and some crappy Ads
 author: Aaron
 layout: post
+permalink: /post/super-bowl-xlv-and-some-crappy-ads
 dsq_thread_id:
   - 225148079
 categories:

@@ -2,6 +2,7 @@
 layout: post
 title: "Dynamic Buttons in Illustrator"
 description: ""
+permalink: /post/dynamic-buttons-in-illustrator
 category:
   - Design
 tags:

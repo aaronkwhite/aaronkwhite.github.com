@@ -1,0 +1,368 @@
+@import 'normalize';
+@import 'variables';
+@import 'foundation/settings';
+@import 'foundation';
+@import 'parallax';
+@import 'animate';
+@import 'mixins';
+
+body {
+  background: $white;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+a {
+  color: $purple;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn-outline {
+  @include button(
+    rem-calc(8),
+    false,
+    true,
+    false,
+    false
+  );
+  border: 1px solid $purple!important;
+  color: $purple!important;
+  font-size: rem-calc(16);
+  &:hover {
+    color: darken($purple, 20%)!important;
+    border-color: darken($purple, 20%)!important;
+    text-decoration: none;
+  }
+}
+
+
+.lead {
+  margin-bottom: rem-calc(120);
+  header {
+    font-size: rem-calc(14);
+  }
+  h2 {
+    margin-bottom: rem-calc(4);
+  }
+}
+
+.subheader {
+  font-weight: 100;
+  margin-bottom: rem-calc(40);
+}
+
+#fourohfour {
+  margin-bottom: rem-calc(192);
+  margin-top: rem-calc(96);
+}
+
+#hero {
+  min-height: 100%;
+  padding-top: rem-calc(24);
+  position: relative;
+  h1 {
+    color: $white;
+    text-align: center;
+    @include fadeIn(4s, $global-function, 1s);
+  }
+  p {
+    color: $white;
+  }
+  a {
+    color: $white;
+  }
+  
+  .tag {
+    text-align: center;
+    @media #{$small-only} {
+      margin-top: rem-calc(128);
+    }
+    @media #{$medium-up} {
+      margin-top: rem-calc(144);
+    }
+    @media #{$xlarge-up} {
+      margin-top: rem-calc(200);
+    }
+  }
+
+  .my-image {
+    margin: 0;
+    padding-right: rem-calc(18);
+
+    img {
+      @include circle(40px);
+    }
+  }
+  .my-name {
+    line-height: rem-calc(40); 
+    margin: 0;
+    vertical-align: middle;
+    a {
+      color: $white;
+    }
+  }
+  .tagline {
+    font-size: rem-calc(64); 
+    font-weight: 400;
+    margin-top: rem-calc(360);
+    position: relative;
+    text-align: center;
+    @include fadeIn(4s, $global-function, 1s);
+  }
+  
+  .more {
+    margin-top: rem-calc(64);
+    @include fadeIn(4s, $global-function, 2s);
+  }
+  
+  .btn-outline-alt {
+    @include button(
+      rem-calc(8),
+      false,
+      true,
+      false,
+      false
+    );
+    background: rgba(62,55,99,0.6);
+    border: 1px solid $white;
+    color: $white;
+    font-size: rem-calc(24);
+    font-weight: 100;
+    padding: rem-calc(10) rem-calc(64);
+    &:hover {
+      color: darken($white, 20%);
+      border-color: darken($white, 20%);
+    }
+  }
+}
+
+#nav-dropdown {
+  width: rem-calc(52);
+  li {
+    font-size: rem-calc(24);
+    &:hover {
+      background: transparent;
+    }
+    a {
+      color: $purpleDark;
+      &:hover {
+        color: $purple;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.my-menu {
+  @media #{$small-only} {
+    display: none;
+  }
+}
+
+.about {
+  text-align: center;
+}
+
+
+.portfolio {
+  li {
+    margin: 1rem 0;
+  }
+  .shot-item {
+    overflow: hidden;
+    position: relative;
+    h4 {
+      color: darken($purple, 10%);
+      font-family: "brandon-grotesque", sans-serif;
+    }
+    img {
+      border: 1px solid $greyLight;
+    }
+  }
+  .shot-over {
+    background: rgba(255,255,255,0.95);
+    opacity: 0;
+    padding-top: 3rem;
+    @media #{$large-up} { padding-top: 1.5rem; }
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity .35s ease;
+    -moz-transition: opacity .35s ease;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+#writings {
+  .writings-list {
+    li {
+      margin: 0 0 rem-calc(24) 0;
+    }
+    h3 {
+      margin: 0 0 rem-calc(8) 0;
+      font-weight: 100;
+    }
+    p {
+      font-size: rem-calc(18);
+      margin: 0;
+    }
+    .date {
+      color: $purple;
+    }
+  }
+  a {
+    color: $purpleDark;
+  }
+}
+
+#page-nav {
+  background: $purpleDark;
+  padding-top: rem-calc(24);
+  margin-bottom: rem-calc(24);
+  .my-image {
+    margin: 0;
+    padding-right: rem-calc(18);
+
+    img {
+      @include circle(40px);
+    }
+  }
+  .my-name {
+    line-height: rem-calc(40); 
+    margin: 0;
+    vertical-align: middle;
+    a {
+      color: $white;
+    }
+  }
+
+}
+
+#page {
+  .lead {
+    margin-bottom: rem-calc(120);
+  }
+  .marker {
+    font-size: rem-calc(18);
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+#post {
+  .lead {
+    margin-bottom: rem-calc(120);
+  }
+  i {
+    font-size: rem-calc(16);
+  }
+  .ss-twitter {
+    font-size: rem-calc(24);
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+#page .takemeback,
+#post .takemeback,
+#shiny .takemeback  {
+  font-size: rem-calc(16);
+  i {
+    font-size: rem-calc(12);
+  }
+  a {
+    color: $greyDark;
+    &:hover {
+      color: $purple;
+      text-decoration: none;
+    }
+  }
+}
+
+#shiny {
+  h3 {
+    margin-bottom: .2rem;
+    margin-top: .5rem;
+  }
+  p {
+    font-size: rem-calc(20);
+  }
+  article {
+    margin-bottom: rem-calc(32);
+    margin-top: rem-calc(32);
+  }
+  hr {
+    border-color: $greyLight;
+    margin: rem-calc(48) auto;
+  }
+}
+
+footer {
+  background: $blueDark;
+  color: $greyDark;
+  margin-top: rem-calc(64);
+  padding: rem-calc(32) 0;
+  .marker {
+    color: $blue;
+    float: left;
+    font-size: rem-calc(20);
+    padding: 0 rem-calc(12) 0 rem-calc(18);
+    vertical-align: middle;
+  }
+  a {
+    color: $greyDark;
+    font-weight: 300;
+    &:hover {
+      color: $purple!important;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 0!important;
+    text-align: center;
+    li {
+      display: inline-block;
+      font-size: rem-calc(16);
+    }
+
+  }
+
+  #social {
+    margin-top: rem-calc(24);
+    padding: rem-calc(80) 0;
+    text-align: center;
+
+    ul {
+      margin: 0 auto;
+
+      li {
+        padding: 0 rem-calc(24);
+        vertical-align: middle;
+        font-size: rem-calc(24);
+        a {
+          
+        }
+      }
+    }
+    .platform {
+      margin-bottom: rem-calc(40);
+    }
+  }
+}

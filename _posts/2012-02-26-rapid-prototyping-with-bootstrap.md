@@ -2,6 +2,7 @@
 title: Rapid Prototyping with Bootstrap
 author: Aaron
 layout: post
+permalink: /post/rapid-prototyping-with-bootstrap
 dsq_thread_id:
   - 590244464
 categories:

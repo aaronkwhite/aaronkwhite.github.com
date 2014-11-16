@@ -2,6 +2,7 @@
 title: Responsive Web Design in Action
 author: Aaron
 layout: post
+permalink: /post/responsive-web-design-in-action
 dsq_thread_id:
   - 549824749
 categories:

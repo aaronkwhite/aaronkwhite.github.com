@@ -2,37 +2,25 @@
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
 <!doctype html>
-<html lang="en">
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }} - {{ site.name }}</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link href="{{ relative }}fonts/ss-social-regular.css" rel="stylesheet" />
-    <link href="{{ relative }}fonts/ss-pika.css" rel="stylesheet" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-    <link rel="stylesheet" href="{{ relative }}stylesheets/main.css" />
 
-    <script src="{{ relative }}javascripts/custom.modernizr.js"></script>
+    <meta name="description" content="{{ site.description }}" />
+    
+    <meta name="author" content="{{ site.author.name }}" />
+    <meta name="copyright" content="{{ site.author.name }} (c) 2014" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  
+
+    <link href="{{ baseurl }}/fonts/ss-social-regular.css" rel="stylesheet" />
+    <link href="{{ baseurl }}/fonts/ss-pika.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ baseurl }}/stylesheets/style.css" />
+    
+    <script src="{{ baseurl }}/javascripts/modernizr.js"></script>
   </head>
 
   <body>
-
-    <header>
-      <div class="row">
-
-        <div class="large-4 columns site-title">
-          <!--<a href="{{ site.url }}">aaron k. white</a>-->
-          <a href="/">aaron k. white</a>
-        </div>
-
-        <div class="large-8 columns site-nav">
-          <ul class="inline-list">
-            <li><a href="/about" class="ss-businessuser"></a></li>
-            <li><a href="/shiny" class="ss-pen"></a></li>
-            <li><a href="http://homelandpodcast.com" class="ss-mic"></a></li>
-            <li><a href="/blog" class="ss-rss"></a></li>
-          </ul>
-        </div>
-      
-      </div><!-- /row -->
-    </header>

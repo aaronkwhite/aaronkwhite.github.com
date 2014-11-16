@@ -2,6 +2,7 @@
 title: 'Delivering a Bunch of Mediocre Features &#8211; Why I Re-Designed an iPhone App'
 author: Aaron
 layout: post
+permalink: /post/delivering_a_bunch_of_mediocre_features
 dsq_thread_id:
   - 624882384
 categories:

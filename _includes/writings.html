@@ -1,21 +1,34 @@
+<section id="writings" class="row lead">
+  <article class="about small-9 small-centered large-centered columns">
+    
+    <header>
+        <h2>Things I Write...</h2>
+        <h4 class="subheader">I don't write often, but when I do it's Dos Equis!</h4>
+    </header>
+    
+    <section>
+      
+      <ul class="writings-list no-bullet">
 
-<section id="writings">
+        {% for post in site.posts limit: 15 %}
 
-  <div class="row">
-    <div class="large-12 columns">
-      <h4>things i write...</h4>
-    </div>
-  </div>
+          {% if post.categories contains "pages" %}
+            
+          {% else if %}
+            <li>
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <p class="date">
+                {{ post.date | date: "%B %d, %Y" }}
+              </p>
+            </li>
 
-  {% for post in site.posts limit: 10 %}
-    <div class="row">
-      <div class="large-12 columns">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p>
-          <span class="ss-calendar"></span> {{ post.date | date: "%B %d, %Y" }}
-        </p>
-      </div>
-    </div>
-  {% endfor %}
+          {% endif %}
 
+        {% endfor %}
+
+      </ul>
+    </section>
+    <section class="text-center">
+      <a href="{{ baseurl }}/blog" class="btn-outline">View More</a>
+    </section>
 </section>

@@ -2,6 +2,7 @@
 title: Product Discovery Process
 author: Aaron
 layout: post
+permalink: /post/product-discovery-process
 categories:
   - Product
 tags:

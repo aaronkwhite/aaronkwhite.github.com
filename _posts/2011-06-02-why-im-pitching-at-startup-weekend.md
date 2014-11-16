@@ -2,6 +2,7 @@
 title: 'Why I&#8217;m pitching at Startup Weekend.'
 author: Aaron
 layout: post
+permalink: /post/why-im-pitching-at-startup-weekend
 dsq_thread_id:
   - 320774393
 categories:
