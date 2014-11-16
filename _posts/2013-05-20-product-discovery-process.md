@@ -24,15 +24,15 @@ I can't get into the specifics of the feature we were focused on, however you sh
 
 So what does this product discovery process look like? Glad you asked, the process revolves around the following outline:
 
-* **Frame the Problem**
-* **Empathize with the User**
-* **Focus on a specific problem**
-* **Ideate**
-* **Prototype & Test**
-* **Plan & Deliver**
+* Frame the Problem
+* Empathize with the User
+* Focus on a specific problem
+* Ideate
+* Prototype & Test
+* Plan & Deliver
 
 
-### Frame the Problem
+## Frame the Problem
 First start out by naming your user, take the first letter of the feature/product you are building and name the user like so: 'Francis the Feature User'. Patton suggested this to make the focussing a bit easier to remember, but we'll get to that in a few.
 
 
@@ -41,7 +41,7 @@ According to Patton Framing the problem will allow you to understand how solving
 Make sure you take the time to really understand what it is you are trying to address... Be warned though, your first inclination will be to bypass this entirely because you 'think' you know what the problem is. From my experience you should spend at least a few hours discussing the problem.
 
 
-### Empathize
+## Empathize
 Let's set a ground rule: "You Are Not Your User!"
 
 Empathizing is really about immersing your self in the users mindset.
@@ -51,7 +51,7 @@ Start by trying to understand how Francis is currently solving this problem, wha
 In my case, we were able to look at real word examples provided by our customers, we had setup meetings with a few customers, had them walk us through examples in their current process and talked about potential solutions and had lengthy conversations with internal team members in similar positions about potential solutions and problems.
 
 
-### Focus
+## Focus
 Next to ideation, this is my favorite part of the process. You've spent hours really understanding the problem and even longer in their shoes. The next step is to write out a Focus statement that will guide you along for the rest of your discovery journey.
 
 A Focus statement is a clear and direct statement focusing on a solution that addresses the framed problem. Everything you do from here on out will need to be compared to this.
@@ -69,7 +69,7 @@ An example of a Focus statement might look something like this:
 > *WHEN* we can only talk in 140 characters?
 
 
-### Ideate
+## Ideate
 Now comes the fun part... get everyone involved. Close your computers, get the crayons, sharpies and a whole lotta printer paper and draw! This is where you need to time box yourselves, only allow 5 or 10 minutes per round if ideation.
 
 After each round of ideation, tape your pieces of paper on the wall and present your idea to everyone. Allow others to ask questions and get some clarification. You'll begin to see that everyone participating will start converging on a solid solution.
@@ -79,7 +79,7 @@ Remember to talk about the framed problem and utilize your focus statement to st
 After a few rounds of ideating, cherry pick the best ideas from each other and move on to the next step... building shit!
 
 
-### Prototype & Test
+## Prototype & Test
 This step can be the most difficult to do effectively... do I sketch, wireframe, Illustrator, Balsamiq, create an clickable prototype or jump right into the code? Honestly, every time you do Product Discovery it should be different. During this workshop I had some high fidelity screens in Illustrator already at my disposal and was able to turn around a few different mockups pretty quickly.
 
 By the second day (early morning) we had 9 screens to show charter customers our progress. By the early afternoon we received some valuable feedback and continued discussing and refining our solution. Throughout the day we shared our progress with various charter customers, internal staff, some of our developers and continued to iterate on our solution based on that feedback.
@@ -98,7 +98,7 @@ As of this writing we're close to 3-4 sprints of development time in order to ge
 
 
 
-### Some Take Aways:
+## Some Take Aways:
 
 #### Frame & Empathize like a Mutha!
 Really take the time to make sure everyone on the team (or in the room) is on the same page. The first two steps are about getting to a shared understanding. It can be a bit difficult for some to see the value of this at first, but once the team has that shared understanding the rest will fall into place nicely.

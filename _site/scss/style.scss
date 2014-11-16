@@ -272,8 +272,15 @@ a {
   .lead {
     margin-bottom: rem-calc(120);
   }
-  i {
-    font-size: rem-calc(16);
+  .post-content {
+    @media #{$small-only} {
+      p, li {
+        font-size: rem-calc(20);
+      }
+    }
+    h2 {
+      margin-top: rem-calc(48);
+    }
   }
   .ss-twitter {
     font-size: rem-calc(24);
@@ -282,6 +289,9 @@ a {
     &:hover {
       text-decoration: none;
     }
+  }
+  i {
+    font-size: rem-calc(16);
   }
 }
 

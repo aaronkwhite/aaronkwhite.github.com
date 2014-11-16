@@ -15060,12 +15060,17 @@ a {
 
 #post .lead {
   margin-bottom: 4.2857142857rem; }
-#post i {
-  font-size: 0.5714285714rem; }
+@media only screen and (max-width: 40em) {
+  #post .post-content p, #post .post-content li {
+    font-size: 0.7142857143rem; } }
+#post .post-content h2 {
+  margin-top: 1.7142857143rem; }
 #post .ss-twitter {
   font-size: 0.8571428571rem; }
 #post a:hover {
   text-decoration: none; }
+#post i {
+  font-size: 0.5714285714rem; }
 
 #page .takemeback,
 #post .takemeback,
