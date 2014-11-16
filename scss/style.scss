@@ -8,7 +8,7 @@
 
 body {
   background: $white;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,6 +56,11 @@ a {
   margin-bottom: rem-calc(40);
 }
 
+#fourohfour {
+  margin-bottom: rem-calc(192);
+  margin-top: rem-calc(96);
+}
+
 #hero {
   min-height: 100%;
   padding-top: rem-calc(24);
@@ -97,6 +102,9 @@ a {
     line-height: rem-calc(40); 
     margin: 0;
     vertical-align: middle;
+    a {
+      color: $white;
+    }
   }
   .tagline {
     font-size: rem-calc(64); 
@@ -134,7 +142,7 @@ a {
 }
 
 #nav-dropdown {
-  width: rem-calc(48);
+  width: rem-calc(52);
   li {
     font-size: rem-calc(24);
     &:hover {
@@ -230,11 +238,14 @@ a {
     }
   }
   .my-name {
-    color: $white;
     line-height: rem-calc(40); 
     margin: 0;
     vertical-align: middle;
+    a {
+      color: $white;
+    }
   }
+
 }
 
 #page {
@@ -269,7 +280,8 @@ a {
 }
 
 #page .takemeback,
-#post .takemeback {
+#post .takemeback,
+#shiny .takemeback  {
   font-size: rem-calc(16);
   i {
     font-size: rem-calc(12);
@@ -278,13 +290,33 @@ a {
     color: $greyDark;
     &:hover {
       color: $purple;
+      text-decoration: none;
     }
+  }
+}
+
+#shiny {
+  h3 {
+    margin-bottom: .2rem;
+    margin-top: .5rem;
+  }
+  p {
+    font-size: rem-calc(20);
+  }
+  article {
+    margin-bottom: rem-calc(32);
+    margin-top: rem-calc(32);
+  }
+  hr {
+    border-color: $greyLight;
+    margin: rem-calc(48) auto;
   }
 }
 
 footer {
   background: $blueDark;
   color: $greyDark;
+  margin-top: rem-calc(64);
   padding: rem-calc(32) 0;
   .marker {
     color: $blue;

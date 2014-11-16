@@ -19,6 +19,13 @@ tags:
 
 <section class="row lead">
   <div class="small-12 columns text-center">
+    <img data-interchange="[/images/spreadsheet-bottom-full.png, (retina)]" />
+    <noscript><img src="/images/spreadsheet-bottom-full.png" /></noscript>
+  </div>
+</section>
+
+<section class="row lead">
+  <div class="small-12 columns text-center">
     <img data-interchange="[/images/spreadsheet-panel-full@2x.png, (retina)]" />
     <noscript><img src="/images/spreadsheet-panel-full.png" /></noscript>
   </div>

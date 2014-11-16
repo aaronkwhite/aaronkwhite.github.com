@@ -1,0 +1,32 @@
+{% include header.html %}
+
+<section id="page-nav" class="">
+
+  <div class="row">
+    <div class="small-12 columns">
+
+      <p class="left my-image"><a href="{{ baseurl }}/"><img src="http://www.gravatar.com/avatar/a12d1a571d63957f150117f18d87a69f.png" /></a></p>
+
+      <p class="left my-name"><a href="{{ baseurl }}/">aaronkwhite</a></p>
+    
+      <p class="my-menu right">
+        <a href="#" data-dropdown="nav-dropdown" class=" columns nav-toggle">
+          <img src="{{ baseurl }}/images/header_menu.png" alt="" />
+        </a>
+      
+        <ul id="nav-dropdown" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+          <li><a href="{{ site.twitter_url }}"><i class="ss-twitter ss-social-regular"></i></a></li>
+          <li><a href="{{ site.dribbble_url }}"><i class="ss-dribbble ss-social-regular"></i></a></li>
+          <li><a href="{{ site.linkedin_url }}"><i class="ss-linkedin ss-social-regular"></i></a></li>
+          <li><a href="{{ site.github_url }}"><i class="ss-octocat ss-social-regular"></i></a></li>
+        </ul>
+      </p>
+
+    </div>
+  </div>
+
+</section><!-- /page-nav -->
+
+  {{ content }}
+
+{% include footer.html %}
