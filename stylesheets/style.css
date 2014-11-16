@@ -11405,7 +11405,7 @@ a {
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 0.7142857143rem;
@@ -12047,7 +12047,7 @@ a {
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 0.7142857143rem;
@@ -14764,8 +14764,7 @@ body {
   -webkit-backface-visibility: hidden; }
 
 body {
-  background: #ffffff;
-  font-weight: 300; }
+  background: #ffffff; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
@@ -14858,7 +14857,7 @@ a {
     text-align: center; }
     @media only screen and (max-width: 40em) {
       #hero .tag {
-        margin-top: 4.5714285714rem; } }
+        margin-top: 1.7142857143rem; } }
     @media only screen and (min-width: 40.063em) {
       #hero .tag {
         margin-top: 5.1428571429rem; } }
@@ -14988,6 +14987,11 @@ a {
 .about {
   text-align: center; }
 
+@media only screen and (max-width: 40em) {
+  #about-me section p {
+    font-size: 0.7142857143rem;
+    font-weight: 300; } }
+
 .portfolio li {
   margin: 1rem 0; }
 .portfolio .shot-item {
@@ -15020,7 +15024,7 @@ a {
   margin: 0 0 0.8571428571rem 0; }
 #writings .writings-list h3 {
   margin: 0 0 0.2857142857rem 0;
-  font-weight: 100; }
+  font-weight: 300; }
 #writings .writings-list p {
   font-size: 0.6428571429rem;
   margin: 0; }

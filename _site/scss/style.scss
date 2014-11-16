@@ -8,7 +8,6 @@
 
 body {
   background: $white;
-  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,7 +38,6 @@ a {
     text-decoration: none;
   }
 }
-
 
 .lead {
   margin-bottom: rem-calc(120);
@@ -80,7 +78,7 @@ a {
   .tag {
     text-align: center;
     @media #{$small-only} {
-      margin-top: rem-calc(128);
+      margin-top: rem-calc(48);
     }
     @media #{$medium-up} {
       margin-top: rem-calc(144);
@@ -168,6 +166,14 @@ a {
   text-align: center;
 }
 
+#about-me {
+  @media #{$small-only} {
+    section p {
+      font-size: rem-calc(20);
+      font-weight: 300;
+    }
+  }
+}
 
 .portfolio {
   li {
@@ -210,7 +216,7 @@ a {
     }
     h3 {
       margin: 0 0 rem-calc(8) 0;
-      font-weight: 100;
+      font-weight: 300;
     }
     p {
       font-size: rem-calc(18);

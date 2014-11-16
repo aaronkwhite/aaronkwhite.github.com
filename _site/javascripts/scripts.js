@@ -36,11 +36,10 @@
 
 })( jQuery );
 
-jQuery("#hero h1").fitText(1.2, { minFontSize: '24px', maxFontSize: '80px' });
+jQuery("#hero h1").fitText(1.2, { minFontSize: '32px', maxFontSize: '80px' });
 
 
 //Responsive Video Hack
-
 $(function() {
     
     var $allVideos = $("iframe[src^='http://player.vimeo.com'], iframe[src^='http://www.youtube.com'], object, embed"),
