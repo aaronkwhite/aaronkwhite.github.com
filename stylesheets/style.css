@@ -14792,12 +14792,12 @@ a {
   padding-bottom: 0.3214285714rem;
   padding-left: 0.5714285714rem;
   border-radius: 3px;
-  border: 1px solid #9390e7;
-  color: #9390e7;
+  border: 1px solid #9390e7 !important;
+  color: #9390e7 !important;
   font-size: 0.5714285714rem; }
   .btn-outline:hover {
-    color: #413cd5;
-    border-color: #413cd5;
+    color: #413cd5 !important;
+    border-color: #413cd5 !important;
     text-decoration: none; }
 
 .lead {
