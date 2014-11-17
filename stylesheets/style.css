@@ -14774,6 +14774,9 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.speakerdeck {
+  margin-top: 1.7142857143rem; }
+
 .btn-outline {
   border-style: solid;
   border-width: 0px;
@@ -15070,6 +15073,8 @@ a {
     font-size: 0.7142857143rem; } }
 #post .post-content h2 {
   margin-top: 1.7142857143rem; }
+#post .post-share {
+  margin: 0.8571428571rem 0; }
 #post .ss-twitter {
   font-size: 0.8571428571rem; }
 #post a:hover {

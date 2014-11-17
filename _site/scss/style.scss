@@ -21,6 +21,10 @@ a {
   }
 }
 
+.speakerdeck {
+  margin-top: rem-calc(48);
+}
+
 .btn-outline {
   @include button(
     rem-calc(8),
@@ -286,6 +290,9 @@ a {
     h2 {
       margin-top: rem-calc(48);
     }
+  }
+  .post-share {
+    margin: rem-calc(24) 0;
   }
   .ss-twitter {
     font-size: rem-calc(24);

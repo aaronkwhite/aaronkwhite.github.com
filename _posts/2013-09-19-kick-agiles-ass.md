@@ -4,7 +4,7 @@ author: Aaron
 layout: post
 permalink: /post/kick-agiles-ass
 category:
-- Design
+  - Design
 tags:
   - Bootstrap
   - Illustrator
