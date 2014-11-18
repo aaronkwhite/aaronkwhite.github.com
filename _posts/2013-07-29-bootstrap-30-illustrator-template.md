@@ -34,6 +34,6 @@ I'd like to thank my friend [Michael Grills][mikegrills] for pushing me to do mo
 [1]: /images/posts/bootstrap-3-logo.png
 [2]: http://blog.getbootstrap.com/2013/07/27/bootstrap-3-rc1
 [3]: /images/posts/bootstrap-3-template.jpg =600
-[4]: https://layervault.com/aaron-k-white/Bootstrap%203%20Illustrator%20Template
+[4]: https://layervault.com/rev/uh6T7IuzAS
 [mikegrills]: http://michaelgrills.com
 [followme]: http://www.twitter.com/aaronkwhite
