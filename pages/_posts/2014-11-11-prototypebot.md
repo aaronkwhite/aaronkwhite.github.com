@@ -3,6 +3,9 @@ layout: page
 title: Prototype Bot
 description: "Logo design for 3D printing startup"
 permalink: /shiny/prototypebot
+image: prototypebot_logo.png
+image2: prototypebot_large.png
+image3: prototypebot_robots.png
 category:
   - Page
   - Design
@@ -20,15 +23,13 @@ tags:
 
 <section class="row lead">
   <div class="small-12 columns text-center">
-    <img data-interchange="[/images/prototypebot_logo@2x.png, (retina)]"  width="50%" />
-    <noscript><img src="/images/prototypebot_logo.png" width="50%"></noscript>
+    <img src="/images/{{ page.image }}" data-interchange="[/images/{{ page.image }}, (default)], [/images/{{ page.image }}@2x.png, (retina)]" width="50%">
   </div>
 </section>
 
 <section class="row lead">
   <div class="small-12 columns text-center">
-    <img data-interchange="[/images/prototypebot_large@2x.png, (retina)]"  width="50%" />
-    <noscript><img src="/images/prototypebot_large.png" width="50%"></noscript>
+    <img src="/images/{{ page.image2 }}" data-interchange="[/images/{{ page.image2 }}, (default)], [/images/{{ page.image2 }}@2x.png, (retina)]" width="50%">
   </div>
 </section>
 
@@ -36,8 +37,5 @@ tags:
 ### Additional Characters
 
 <p class="text-center">
-
-  <img data-interchange="[/images/prototypebot_robots@2x.png, (retina)]" width="100%"/>
-  <noscript><img src="/images/prototypebot_robots.png" width="400px"></noscript>
-
+  <img src="/images/{{ page.image3 }}" data-interchange="[/images/{{ page.image3 }}, (default)], [/images/{{ page.image3 }}@2x.png, (retina)]" width="100%">
 </p>

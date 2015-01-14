@@ -3,6 +3,8 @@ layout: page
 title: Spreadsheet Application
 description: "Wireframe for Spreadsheet Application"
 permalink: /shiny/spreadsheet-app
+image: spreadsheet-bottom-full.png
+image2: spreadsheet-panel-full.png
 category:
   - Page
   - Design
@@ -19,14 +21,12 @@ tags:
 
 <section class="row lead">
   <div class="small-12 columns text-center">
-    <img data-interchange="[/images/spreadsheet-bottom-full.png, (retina)]" />
-    <noscript><img src="/images/spreadsheet-bottom-full.png" /></noscript>
+    <img src="/images/{{ page.image }}" data-interchange="[/images/{{ page.image }}, (default)], [/images/{{ page.image }}@2x.png, (retina)]">
   </div>
 </section>
 
 <section class="row lead">
   <div class="small-12 columns text-center">
-    <img data-interchange="[/images/spreadsheet-panel-full@2x.png, (retina)]" />
-    <noscript><img src="/images/spreadsheet-panel-full.png" /></noscript>
+    <img src="/images/{{ page.image2 }}" data-interchange="[/images/{{ page.image2 }}, (default)], [/images/{{ page.image2 }}@2x.png, (retina)]">
   </div>
 </section>
