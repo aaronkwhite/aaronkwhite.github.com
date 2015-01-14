@@ -15008,9 +15008,10 @@ a {
 @media only screen {
   .portfolio .shot-over {
     display: none; } }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 40.063em) {
   .portfolio .shot-over {
     background: rgba(255, 255, 255, 0.95);
+    display: block;
     opacity: 0;
     padding-top: 3rem;
     position: absolute;
@@ -15021,10 +15022,10 @@ a {
     height: 100%;
     -webkit-transition: opacity .35s ease;
     -moz-transition: opacity .35s ease; } }
-  @media only screen and (min-width: 64.063em) and (min-width: 64.063em) {
+  @media only screen and (min-width: 40.063em) and (min-width: 64.063em) {
     .portfolio .shot-over {
       padding-top: 1.5rem; } }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 40.063em) {
     .portfolio .shot-over:hover {
       opacity: 1; } }
 

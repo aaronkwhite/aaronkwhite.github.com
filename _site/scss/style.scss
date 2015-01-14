@@ -198,8 +198,9 @@ a {
     @media #{$small-up} {
       display: none;
     }
-    @media #{$large-up} {
+    @media #{$medium-up} {
       background: rgba(255,255,255,0.95);
+      display: block;
       opacity: 0;
       padding-top: 3rem;
       @media #{$large-up} { padding-top: 1.5rem; }
