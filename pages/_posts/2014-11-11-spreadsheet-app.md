@@ -3,8 +3,8 @@ layout: page
 title: Spreadsheet Application
 description: "Wireframe for Spreadsheet Application"
 permalink: /shiny/spreadsheet-app
-image: spreadsheet-bottom-full.png
-image2: spreadsheet-panel-full.png
+image: spreadsheet-bottom-full
+image2: spreadsheet-panel-full
 category:
   - Page
   - Design
