@@ -4,8 +4,8 @@ title: Prototype Bot
 description: "Logo design for 3D printing startup"
 permalink: /shiny/prototypebot
 image: prototypebot_logo.png
-image2: prototypebot_large.png
-image3: prototypebot_robots.png
+image2: prototypebot_large
+image3: prototypebot_robots
 category:
   - Page
   - Design
