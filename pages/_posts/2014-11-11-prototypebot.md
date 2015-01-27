@@ -3,7 +3,7 @@ layout: page
 title: Prototype Bot
 description: "Logo design for 3D printing startup"
 permalink: /shiny/prototypebot
-image: prototypebot_logo.png
+image: prototypebot_logo
 image2: prototypebot_large
 image3: prototypebot_robots
 category:
