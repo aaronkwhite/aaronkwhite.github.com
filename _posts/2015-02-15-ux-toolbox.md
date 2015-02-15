@@ -22,7 +22,7 @@ tags:
 <img src="/images/{{ page.image }}" data-interchange="[/images/{{ page.image }}, (default)], [/images/{{ page.image }}@2x.png, (retina)]">
 </p>
 
-Recently I was re-reading a post by Patrick Neeman... "Five Things You Should Do to Be a Great UX Designer" (circa 2012) where Patrick talks about what it means to be a UX designer and 5 things you should be doing to be a 'Great UX Designer'. There was something that Patrick mentioned that jumped out at me this time around:
+Recently I was re-reading a post by Patrick Neeman... "[Five Things You Should Do to Be a Great UX Designer](http://www.usabilitycounts.com/2012/09/12/five-things-you-should-do-to-be-a-great-ux-designer/)" (circa 2012) where Patrick talks about what it means to be a UX designer and 5 things you should be doing to be a 'Great UX Designer'. There was something that Patrick mentioned that jumped out at me this time around:
 
 <blockquote>
   "Wireframes are only one communication tool that User Experience Designers have in their toolbox."
