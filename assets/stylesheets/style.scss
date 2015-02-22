@@ -13,28 +13,149 @@
 @import 'foundation';
 
 // Fonts
-
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather:900,300italic,300,900italic);
+@import 'aaronkwhite-font';
 
 // Custom Styles
-
-#sidebar {
-  background: $blueMain;
-  color: $greyMain;
-  height: 100%;
-  left: 0;
-  padding: 4em 1.5em;
-  position: fixed;
-  top: 0;
-  width: 26%;
-  h2 {
-    color: $greyLight;
+.grey {
+  color: $greyLight;
+  &:hover {
+    color: darken($greyLight, 8%);
+  }
+}
+.blueAlt {
+  color: $blueAlt;
+  &:hover {
+    color: darken($blueAlt, 20%);
+  }
+}
+.blueAlt2 {
+  color: $blueAlt2;
+  &:hover {
+    color: darken($blueAlt2, 8%);
+  }
+}
+.red {
+  color: $redMain;
+  &:hover {
+    color: darken($redMain, 8%);
   }
 }
 
 
+#sidebar {
+  background: $blueMain;
+  color: $greyMain;
+  .social {
+    ul {
+      display: inline-block;
+      margin: 1em -.5em 0 -.5em;
+      text-align: center;
+    }
+  }
+  .copy {
+    p {
+      margin-bottom: .625em;
+    }
+    i {
+      color: $greyLight;
+    }
+  }
+  h2 {
+    color: $greyLight;
+    font-weight: 400;
+  }
+  h6 {
+    color: $greyMain;
+    font-weight: 300;
+  }
+
+
+  // Media Queries
+
+  // #sidebar
+  // Small & Medium
+  @media #{$small-up} {
+    margin-bottom: 2em;
+    padding: 2em;
+    .selfie {
+      display: none;
+    }
+    .social {
+      li {
+        margin: 0 .725em;
+      }
+      a {
+        font-size: rem-calc(32);
+      }
+    }
+    .copy{
+      p {
+        font-size: rem-calc(12);
+      }
+    }
+    p {
+      font-size: rem-calc(14);
+    }
+  }
+
+  // #sidebar
+  // Large-Up
+  @media #{$large-up} {
+    font-size: rem-calc(14);
+    height: 100%;
+    padding: 4em 1.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 32%;
+    .selfie {
+      display: block;
+      margin: 0 auto 20px auto;
+      text-align: center;
+      img {
+        max-width: 60%;
+      }
+    }
+    .social {
+      margin: 2em 0;
+      text-align: center;
+      li {
+        margin: 0 .75em;
+      }
+      a {
+        font-size: rem-calc(48);
+      }
+    }
+    p {
+      font-size: rem-calc(16);
+    }
+  }
+  @media #{$xlarge-up} {
+  
+  }
+}
+
 #main {
-  margin-left: 26%;
-  max-width: 54em;
-  padding: 8em 4em 4em 4em;
+  
+  padding: 0 4em 4em 4em;
   width: calc(100% - 30%);
+  
+  // Media Queries
+
+  // #main
+  // Small & Medium
+  @media #{$small-up} {
+    margin-left: 0;
+  }
+
+  // #main
+  // Large-Up
+  @media #{$large-up} {
+    margin-left: 32%;
+    margin-top: 2.5em;
+    max-width: 64%;
+  }
+
 }
