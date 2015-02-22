@@ -1,28 +1,18 @@
-{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
-{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} - {{ site.name }}</title>
 
-<!doctype html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }} - {{ site.name }}</title>
-
-    <meta name="description" content="{{ site.description }}" />
-    
-    <meta name="author" content="{{ site.author.name }}" />
-    <meta name="copyright" content="{{ site.author.name }} (c) 2014" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <meta name="description" content="{{ site.description }}" />
   
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="copyright" content="{{ site.author.name }} (c) 2014" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
-    <link href="{{ baseurl }}/fonts/ss-social-regular.css" rel="stylesheet" />
-    <link href="{{ baseurl }}/fonts/ss-pika.css" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ baseurl }}/stylesheets/style.css" />
-    
-    <script src="{{ baseurl }}/javascripts/modernizr.js"></script>
-  </head>
+  <!-- custom font -->
+  <link href="{{ baseurl }}/fonts/ss-social-regular.css" rel="stylesheet" />
 
-  <body>
-
+  <link rel="stylesheet" href="{{ baseurl }}/stylesheets/style.css" />
   
+  <script src="{{ baseurl }}/javascripts/modernizr.js"></script>
+</head>

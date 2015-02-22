@@ -1,5 +1,25 @@
-{% include header.html %}
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
-  {{ content }}
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 
-{% include footer.html %}
+  {% include header.html %}
+
+  <body>
+    
+    <section id="sidebar">
+
+    </section><!-- /#sidebar -->
+
+    <section id="main">
+    
+      {{ content }}
+    
+    </section><!-- /#main -->
+
+    {% include footer.html %}
+
+  </body>
+</html>
