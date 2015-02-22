@@ -18,29 +18,23 @@
 // Custom Styles
 
 #sidebar {
-  background: pink;
+  background: $blueMain;
+  color: $greyMain;
   height: 100%;
   left: 0;
-  padding: 8em 1.5em;
+  padding: 4em 1.5em;
   position: fixed;
-  text-align: center;
   top: 0;
-  width: 24%;
+  width: 26%;
+  h2 {
+    color: $greyLight;
+  }
 }
 
+
 #main {
-  margin-left: 24%;
+  margin-left: 26%;
   max-width: 54em;
   padding: 8em 4em 4em 4em;
   width: calc(100% - 30%);
-}
-
-.columns {
-    background: #eee;
-    font-size: 11px;
-    margin-bottom: 20px;
-    line-height: 2rem;
-    border: solid 1px #c6c6c6;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
 }
