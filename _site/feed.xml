@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aaron K. White</title>
+    <description>Really Tall... Really Amazing!</description>
+    <link>//</link>
+    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 21 Feb 2015 21:01:05 -0700</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2015 21:01:05 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>UX Toolbox</title>
+        <description>&lt;p&gt;
+&lt;img src=&quot;/images/ux-toolbelt.png&quot; data-interchange=&quot;[/images/ux-toolbelt.png, (default)], [/images/ux-toolbelt@2x.png, (retina)]&quot;&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;Recently I was re-reading a post by Patrick Neeman... &quot;&lt;a href=&quot;http://www.usabilitycounts.com/2012/09/12/five-things-you-should-do-to-be-a-great-ux-designer/&quot;&gt;Five Things You Should Do to Be a Great UX Designer&lt;/a&gt;&quot; (circa 2012) where Patrick talks about what it means to be a UX designer and 5 things you should be doing to be a &#39;Great UX Designer&#39;. There was something that Patrick mentioned that jumped out at me this time around:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &quot;Wireframes are only one communication tool that User Experience Designers have in their toolbox.&quot;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;This got me to thinking about what tools are in my toolbox? How do I tell stories? Are they as effective as I think they are?&lt;/p&gt;
+
+&lt;p&gt;Here are some of mine:&lt;/p&gt;
+
+&lt;h2&gt;Sketching&lt;/h2&gt;
+
+&lt;p&gt;Yes, I know... this is the obvious first answer, however for most of my career sketching hasn&#39;t been my go to medium. Lately I&#39;ve been using Medium point Sharpie Pen&#39;s and card stock to sketch ideas and regular colored sharpies to add more details if necessary. In larger design ideation sessions we&#39;ll time box sketching sessions to 5 or 10 minutes rounds, which is amazing for converging on ideas within a group.&lt;/p&gt;
+
+&lt;h2&gt;User Story Mapping&lt;/h2&gt;
+
+&lt;p&gt;I&#39;m not referring to the &#39;As a user, I&#39;d like to&#39;... training wheels everyone is familiar with. I&#39;m talking about building journey maps of the uses existing process, building a framing statement, empathizing with the user, competitive analysis, ideations and translating all that into a story map of how we solve that problem...&lt;/p&gt;
+
+&lt;p&gt;I can&#39;t imagine starting any product, feature or iteration without a story map. If you haven&#39;t already, head straight over to Amazon and buy Jeff Patton&#39;s book &quot;&lt;a href=&quot;http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909&quot;&gt;User Story Mapping - Discover the Whole Story, Build the Right Product&lt;/a&gt;&quot;. Go ahead, I&#39;ll wait for you.&lt;/p&gt;
+
+&lt;h2&gt;Wireframing&lt;/h2&gt;
+
+&lt;p&gt;I prefer to wireframe using Illustrator or Sketch... I&#39;ve been using vector based drawing tools for years, I know them really well and prefer the flexibility of vector shapes over other design tools such as Photoshop (please do not tweet or email me about using Fireworks, seriously!).&lt;/p&gt;
+
+&lt;p&gt;Wireframes come in all shapes and sizes and shouldn&#39;t be limited to sketching or high-fi wireframes, depending on the project it&#39;s super simple to wireframe in the browser, you can easily grab &lt;a href=&quot;https://github.com/aaronkwhite/bootstrap-jekyll&quot;&gt;Bootstrap&lt;/a&gt; or &lt;a href=&quot;http://foundationjekyll.com&quot;&gt;Foundation&lt;/a&gt; and quickly knock out layouts with dummy data. There is no wrong way to create a wireframe.&lt;/p&gt;
+
+&lt;h2&gt;Prototyping&lt;/h2&gt;
+
+&lt;p&gt;Creating clickable &amp;amp; functional prototypes is by far the best part about my job. It&#39;s one thing to create low-fi or high-fi wireframes/screens and hand those to a stakeholder or a user. Giving them something they can play with in the browser is infinitely better.&lt;/p&gt;
+
+&lt;p&gt;My personal preference is to create a series of clickable screens in &lt;a href=&quot;http://www.invisionapp.com&quot;&gt;InVision&lt;/a&gt; for quickly testing interactions and then move into an HTML/JS/Jekyll prototype or &lt;a href=&quot;http://framerjs.com&quot;&gt;Framer.js&lt;/a&gt;. HTML/JS/Jekyll and Framer prototypes require that you know how to write a bit of Javascript.&lt;/p&gt;
+
+&lt;p&gt;If you&#39;re curious about learning more about prototypes, I can&#39;t recommend the &quot;&lt;a href=&quot;http://www.svpg.com/flavors-of-prototypes&quot;&gt;Flavors of Prototypes&lt;/a&gt;&quot; blog post by Marty Cagan enough. I have also created a couple bare bones Jekyll repos on Github for &lt;a href=&quot;https://github.com/aaronkwhite/bootstrap-jekyll&quot;&gt;Bootstrap&lt;/a&gt; and &lt;a href=&quot;http://foundationjekyll.com&quot;&gt;Foundation&lt;/a&gt; that I use for all my prototyping needs.&lt;/p&gt;
+
+&lt;h2&gt;Product Rehearsals&lt;/h2&gt;
+
+&lt;p&gt;Rehearsals are key to identifying opportunities in your current product/feature. They are very similar to in-person user testing, but with a Product Discovery/Story Mapping twist. We start with a testing script (usually a set of defined tasks) that we run users through, usually the entire product team will observe this process. The product owners and dev team usually take notes on where the users struggle with the product or task and any technical issues they might run into, while I tend to focus on the intangibles, mood, reactions, verbal comments, etc..&lt;/p&gt;
+
+&lt;p&gt;Once the group of users is done with the set of tasks, we have them create a journey map of the process. Outlining their process to complete each task and discussing the different ways each user completed each task. Once we have the journey maps in place, we&#39;ll have each user identify their top pain points in the process.&lt;/p&gt;
+
+&lt;p&gt;Rehearsals allow us to create shared understanding around the product/feature, build empathy for the user, nail down usability issues, clearly identify  opportunities to improve the product/feature and step back and look at the big picture of the entire product.&lt;/p&gt;
+
+&lt;h2&gt;Design Comics&lt;/h2&gt;
+
+&lt;p&gt;Last year I stumbled across a Speaker Deck presentation about &lt;a href=&quot;http://www.almostexact.com/2014/07/uxpa-2014-slides-from-my-talk&quot;&gt;UX Comics by Bonny Colville-Hyde&lt;/a&gt;. When you build story maps, an important part a lot of people forget about is visually translating the important high level stories. Why comics? Everyone loves comics, it&#39;s the perfect medium to reach just about anyone&#39;s imagination.&lt;/p&gt;
+
+&lt;p&gt;I really love creating comics because it&#39;s SO EASY! No, seriously it&#39;s super easy. Anyone can draw a stick figure, string a couple together with a speech bubble or two and you have a comic. Another trick is to take photos with your phone, grab a comic action plugin for photoshop and done. I haven&#39;t seen too many design or UX Comics in the wild yet, so if you do give it a shot let me know, I would love to see what you come up with.&lt;/p&gt;
+
+&lt;p&gt;Being a UX Designer is about understanding problems, empathizing with the user, problem solving, learning, iterating and ultimately visually telling a story that resonates to product owners, stakeholders, engineers and the user.  There is no prescribed process for this stuff, just like Agile it&#39;s a framework that you should iterate on and make your own.&lt;/p&gt;
+
+&lt;p&gt;So what&#39;s in your toolbox?&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Feb 2015 00:00:00 -0700</pubDate>
+        <link>//post/ux-toolbox</link>
+        <guid isPermaLink="true">//post/ux-toolbox</guid>
+        
+        <category>Wireframes</category>
+        
+        <category>Story Mapping</category>
+        
+        <category>UX Comic</category>
+        
+        <category>Prototyping</category>
+        
+        <category>Product Rehearsals</category>
+        
+        <category>Sketching</category>
+        
+        
+        <category>ux</category>
+        
+        <category>design</category>
+        
+        <category>product</category>
+        
+        <category>discovery</category>
+        
+      </item>
+    
+      <item>
+        <title>Let&#39;s Build Better Story Maps</title>
+        <description>&lt;p&gt;With the release of Jeff Pattons new book &quot;&lt;a href=&quot;http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909&quot;&gt;User Story Mapping&lt;/a&gt;&quot;, I thought I&#39;d share the slide deck I&#39;ve been using to explain how to create story maps with my team.&lt;/p&gt;
+
+&lt;p&gt;Sticky notes and sharpies can be powerful tools... however everyday they are used incorrectly, so let&#39;s start building better story maps!&lt;/p&gt;
+
+&lt;div class=&quot;speakerdeck&quot;&gt;
+  &lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;64528e2050100132bee4627079b2931a&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Sun, 16 Nov 2014 00:00:00 -0700</pubDate>
+        <link>//post/story-mappin</link>
+        <guid isPermaLink="true">//post/story-mappin</guid>
+        
+        <category>Bootstrap</category>
+        
+        <category>Illustrator</category>
+        
+        <category>Template</category>
+        
+        <category>Web Design</category>
+        
+        <category>Design</category>
+        
+        
+        <category>design</category>
+        
+        <category>product</category>
+        
+        <category>discovery</category>
+        
+      </item>
+    
+      <item>
+        <title>Walletdata.io</title>
+        <description>&lt;p&gt;&lt;section class=&quot;row lead&quot;&gt;
+  &lt;div class=&quot;small-12 columns text-center&quot;&gt;
+    &lt;img src=&quot;/images/walletdata-full&quot; data-interchange=&quot;[/images/walletdata-full, (default)], [/images/walletdata-full@2x.png, (retina)]&quot;&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Nov 2014 00:00:00 -0700</pubDate>
+        <link>//shiny/walletdata</link>
+        <guid isPermaLink="true">//shiny/walletdata</guid>
+        
+        <category>Logo</category>
+        
+        <category>Design</category>
+        
+        <category>Cryptocurrency</category>
+        
+        <category>Digital Wallet</category>
+        
+        <category>Marketing</category>
+        
+        <category>Dashboard</category>
+        
+        
+        <category>pages</category>
+        
+        <category>page</category>
+        
+        <category>design</category>
+        
+        <category>development</category>
+        
+        <category>application</category>
+        
+        <category>branding</category>
+        
+      </item>
+    
+      <item>
+        <title>Spreadsheet Application</title>
+        <description>&lt;p&gt;&lt;section class=&quot;row lead&quot;&gt;
+  &lt;div class=&quot;small-12 columns text-center&quot;&gt;
+    &lt;img src=&quot;/images/spreadsheet-bottom-full.png&quot; data-interchange=&quot;[/images/spreadsheet-bottom-full.png, (default)], [/images/spreadsheet-bottom-full.png, (retina)]&quot;&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;section class=&quot;row lead&quot;&gt;
+  &lt;div class=&quot;small-12 columns text-center&quot;&gt;
+    &lt;img src=&quot;/images/spreadsheet-panel-full@2x.png&quot; data-interchange=&quot;[/images/spreadsheet-panel-full@2x.png, (default)], [/images/spreadsheet-panel-full@2x.png, (retina)]&quot;&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Nov 2014 00:00:00 -0700</pubDate>
+        <link>//shiny/spreadsheet-app</link>
+        <guid isPermaLink="true">//shiny/spreadsheet-app</guid>
+        
+        <category>Wireframe</category>
+        
+        <category>Design</category>
+        
+        <category>Application</category>
+        
+        <category>Discovery</category>
+        
+        <category>Ideation</category>
+        
+        
+        <category>pages</category>
+        
+        <category>page</category>
+        
+        <category>design</category>
+        
+        <category>wireframe</category>
+        
+        <category>application</category>
+        
+      </item>
+    
+      <item>
+        <title>Prototype Bot</title>
+        <description>&lt;p&gt;&lt;section class=&quot;row lead&quot;&gt;
+  &lt;div class=&quot;small-12 columns text-center&quot;&gt;
+    &lt;img src=&quot;/images/prototypebot_logo&quot; data-interchange=&quot;[/images/prototypebot_logo, (default)], [/images/prototypebot_logo@2x.png, (retina)]&quot; width=&quot;50%&quot;&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;section class=&quot;row lead&quot;&gt;
+  &lt;div class=&quot;small-12 columns text-center&quot;&gt;
+    &lt;img src=&quot;/images/prototypebot_large&quot; data-interchange=&quot;[/images/prototypebot_large, (default)], [/images/prototypebot_large@2x.png, (retina)]&quot; width=&quot;50%&quot;&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/p&gt;
+
+&lt;h3&gt;Additional Characters&lt;/h3&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;
+  &lt;img src=&quot;/images/prototypebot_robots&quot; data-interchange=&quot;[/images/prototypebot_robots, (default)], [/images/prototypebot_robots@2x.png, (retina)]&quot; width=&quot;100%&quot;&gt;
+&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 11 Nov 2014 00:00:00 -0700</pubDate>
+        <link>//shiny/prototypebot</link>
+        <guid isPermaLink="true">//shiny/prototypebot</guid>
+        
+        <category>Logo</category>
+        
+        <category>Design</category>
+        
+        <category>3D Printing</category>
+        
+        <category>Marketing</category>
+        
+        <category>Startup</category>
+        
+        
+        <category>pages</category>
+        
+        <category>page</category>
+        
+        <category>design</category>
+        
+        <category>logo</category>
+        
+        <category>illustration</category>
+        
+        <category>branding</category>
+        
+      </item>
+    
+      <item>
+        <title>MySQL</title>
+        <description>&lt;p&gt;&lt;section class=&quot;row lead&quot;&gt;
+  &lt;div class=&quot;small-12 columns text-center&quot;&gt;
+    &lt;img src=&quot;/images/mysql-full&quot; data-interchange=&quot;[/images/mysql-full, (default)], [/images/mysql-full@2x.png, (retina)]&quot;&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Nov 2014 00:00:00 -0700</pubDate>
+        <link>//shiny/mysql</link>
+        <guid isPermaLink="true">//shiny/mysql</guid>
+        
+        <category>Development</category>
+        
+        <category>Design</category>
+        
+        <category>Marketing</category>
+        
+        <category>Conversion</category>
+        
+        
+        <category>pages</category>
+        
+        <category>page</category>
+        
+        <category>design</category>
+        
+        <category>open source</category>
+        
+        <category>marketing</category>
+        
+      </item>
+    
+      <item>
+        <title>Comment UI Wireframe</title>
+        <description>&lt;p&gt;&lt;section class=&quot;row lead&quot;&gt;
+  &lt;div class=&quot;small-12 columns text-center&quot;&gt;
+    &lt;img src=&quot;/images/comments-spec-bw-full.jpg&quot; data-interchange=&quot;[/images/comments-spec-bw-full.jpg (default)]&quot;&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Nov 2014 00:00:00 -0700</pubDate>
+        <link>//shiny/comment-wireframe</link>
+        <guid isPermaLink="true">//shiny/comment-wireframe</guid>
+        
+        <category>UX</category>
+        
+        <category>Interface</category>
+        
+        <category>Design</category>
+        
+        
+        <category>pages</category>
+        
+        <category>page</category>
+        
+        <category>interaction</category>
+        
+        <category>design</category>
+        
+        <category>application</category>
+        
+      </item>
+    
+      <item>
+        <title>Dynamic Buttons in Illustrator</title>
+        <description>&lt;h1&gt;&lt;/h1&gt;
+
+&lt;p&gt;Recently my team has been trying to find ways to help streamline our UX Design workflow, which now is some combination of sketching, Illustrator, Axure and HTML prototypes. With the release of Illustrator CC, we have started taking advantage of some of the new functionality and improvments, namely converting some of our style guide design elements into dynamic, reusable elements.&lt;/p&gt;
+
+&lt;p&gt;Utilizing the appearance panel, we can dynamically create buttons that retain their style without having to manipulate the elements to fit the specified text. I&#39;ve created an Ai file that has buttons from the Flat UI toolkit, Bootstrap 3.0 and some custom Social buttons using Font-Awesome. Use these however you see fit, hopefully they&#39;ll be useful.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/UrY4Tt8cLl4?list=UU0u7HA9YK_rVF3f9AZUUkmQ?html5=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://layervault.com/aaron-k-white/Dynamic%20Buttons%20-%20Illustrator&quot; class=&quot;button secondary small&quot;&gt;Download&lt;/a&gt; the source files over at LayerVault.&lt;/h3&gt;
+</description>
+        <pubDate>Sat, 26 Oct 2013 00:00:00 -0600</pubDate>
+        <link>//post/dynamic-buttons-in-illustrator</link>
+        <guid isPermaLink="true">//post/dynamic-buttons-in-illustrator</guid>
+        
+        <category>Bootstrap</category>
+        
+        <category>Illustrator</category>
+        
+        <category>Template</category>
+        
+        <category>Web Design</category>
+        
+        <category>Design</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>10 Things Designers Need to Stop Doing to Kick Agile&#39;s Ass!</title>
+        <description>&lt;h1&gt;&lt;/h1&gt;
+
+&lt;p&gt;This is a presentation I gave at Denver Startup Week 2013 as part of the Design Track.&lt;/p&gt;
+
+&lt;p&gt;As more &amp;amp; more companies move into Agile, it&#39;s becoming more challenging for designers to keep up with the pace. There are a handful of simple things every designer can &amp;amp; should do in order to kick Agile&#39;s Ass!&lt;/p&gt;
+
+&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;619409400381013129a92a75a1d77955&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Thu, 19 Sep 2013 00:00:00 -0600</pubDate>
+        <link>//post/kick-agiles-ass</link>
+        <guid isPermaLink="true">//post/kick-agiles-ass</guid>
+        
+        <category>Bootstrap</category>
+        
+        <category>Illustrator</category>
+        
+        <category>Template</category>
+        
+        <category>Web Design</category>
+        
+        <category>Design</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Bootstrap 3 Illustrator Template</title>
+        <description>&lt;h1&gt;&lt;/h1&gt;
+
+&lt;p&gt;With the release of &lt;a href=&quot;http://blog.getbootstrap.com/2013/07/27/bootstrap-3-rc1&quot;&gt;Bootstrap 3 RC1&lt;/a&gt;, I have updated the Bootstrap Illustrator Template to this lastest release. This design template was created to help designers jumpstart their Bootstrap projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/bootstrap-3-logo.png&quot; alt=&quot;Bootstrap 3 Illustrator Template v.0.6.5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This release features the 12 column based grid to match the major overhaul in version 3.0, namely migrating to a percentage based, mobile first grid. This template contains the major breakpoints present in the Bootstrap 3 example pages from mobile to widescreen desktop.&lt;/p&gt;
+
+&lt;p&gt;Also included in this update version are examples of the Basic marketing website layout. You will not find any of the Bootstrap assets such as buttons, alerts, tables, forms, etc... Bootstrap is a Framework to help accelerate your web development project, it doesn&#39;t have an identity... you have to build your own ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/bootstrap-3-template.jpg&quot; width=&quot;600&quot; alt=&quot;Bootstrap 3 Illustrator Template v.0.6.5&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://layervault.com/rev/uh6T7IuzAS&quot; class=&quot;btn-outline&quot;&gt;Download&lt;/a&gt; the template over at LayerVault.&lt;/h3&gt;
+
+&lt;p&gt;This template is free to use for any projects (personal &amp;amp; commercial), all I ask is you follow me on &lt;a href=&quot;http://www.twitter.com/aaronkwhite&quot;&gt;Twitter&lt;/a&gt;, send a tweet to get the word out and that you don&#39;t take any credit for my work or the guys who created Bootstrap.&lt;/p&gt;
+
+&lt;p&gt;I&#39;d like to thank my friend &lt;a href=&quot;http://michaelgrills.com&quot;&gt;Michael Grills&lt;/a&gt; for pushing me to do more and be a better designer, LayerVault for creating a kickass app with support for public projects, @mdo &amp;amp; @fat for creating Bootstrap in the first place... I&#39;ve saved a TON of hours because of it.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Jul 2013 00:00:00 -0600</pubDate>
+        <link>//post/bootstrap-30-illustrator-template</link>
+        <guid isPermaLink="true">//post/bootstrap-30-illustrator-template</guid>
+        
+        <category>Bootstrap</category>
+        
+        <category>Illustrator</category>
+        
+        <category>Template</category>
+        
+        <category>Web Design</category>
+        
+        <category>Design</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+  </channel>
+</rss>

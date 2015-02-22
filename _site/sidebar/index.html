@@ -4,34 +4,44 @@
 <!doctype html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aaron K. White - Really Tall... Really Amazing! - </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aaron K. White - Really Tall... Really Amazing! - </title>
 
-    <meta name="description" content="Really Tall... Really Amazing!" />
-    
-    <meta name="author" content="Aaron K. White" />
-    <meta name="copyright" content="Aaron K. White (c) 2014" />
-    <link rel="canonical" href="/sidebar/" />
+  <meta name="description" content="Really Tall... Really Amazing!" />
   
+  <meta name="author" content="Aaron K. White" />
+  <meta name="copyright" content="Aaron K. White (c) 2014" />
+  <link rel="canonical" href="/sidebar/" />
 
-    <link href="/fonts/ss-social-regular.css" rel="stylesheet" />
-    <link href="/fonts/ss-pika.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/stylesheets/sidebar.css" />
-    
-    <script src="/javascripts/modernizr.js"></script>
-  </head>
+  <!-- custom font -->
+  <!--<link href="assets/fonts/ss-social-regular.css" rel="stylesheet" />-->
+
+  <link rel="stylesheet" href="assets/stylesheets/style.css" />
+  
+  <script src="assets/javascripts/modernizr.js"></script>
+</head>
+
 
   <body>
+    
+    <section id="sidebar">
 
-  
+    </section><!-- /#sidebar -->
 
-  <section id="sidebar">
+    <section id="main">
+    
+      <section id="sidebar">
   <h1>Sidebar</h1>
 
     <div class="row display">
-    <div class="small-12 columns">12</div>
+      <div class="small-12 columns">
+        
+        <h2><i class="aw-twitter"></i></h2>
+
+      </div>
   </div>
 
   
@@ -39,7 +49,7 @@
 
 <section id="main">
   <h1>Main</h1>
-
+  
   <div class="row display">
     <div class="small-12 columns">12</div>
   </div>
@@ -99,9 +109,31 @@
     <div class="small-1 columns">1</div>
   </div>
 
-
-
-</div>
-
 </section>
+    
+    </section><!-- /#main -->
 
+      
+  <script src="assets/javascripts/jquery-2.1.0.min.js"></script>
+  <script src="assets/javascripts/foundation/foundation.js"></script>
+  <script src="assets/javascripts/foundation/foundation.interchange.js"></script>
+  <script src="assets/javascripts/scripts.js"></script>
+
+  <script>
+    $(document).foundation();
+  </script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8416948-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  </body>
+</html>
