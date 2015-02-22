@@ -1,28 +1,36 @@
 title:              Aaron K. White
 description:        Really Tall... Really Amazing!
 
+# Versioning
+current_version:    6.0
+
 author:
     name:           Aaron K. White
     email:          aaron@aaronkwhite.com
+    url:            http://aaronkwhite.com
     github:         aaronkwhite
     twitter:        aaronkwhite
     gravatar:       http://www.gravatar.com/avatar/a12d1a571d63957f150117f18d87a69f.png
 
 # Dependencies
-markdown:           rdiscount
+markdown:           kramdown
 highlighter:        pygments
 
 # Server
-source:             .
+source:             ./
+destination:        ./_site
+
 baseurl:            /
 port:               4000
+url:                http://aaronkwhite.com
+
+# exclude this stuff when building the static site
+exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
 
 # Permalinks
 permalink:          pretty
 
 # Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _scss
   style:            :compressed
@@ -31,7 +39,7 @@ sass:
 ## CUSTOM VARS
 
 # Misc Vars
-ga_id:             UA-8416948-1
+ga_id:              UA-8416948-1
 site_name:          Aaron K. White
 site_url:           http://aaronkwhite.com
 site_email:         info@waaronkwhite.com
