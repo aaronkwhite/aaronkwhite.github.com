@@ -22,6 +22,6 @@ tags:
 
 <section class="row lead">
   <div class="small-12 columns text-center">
-    <img src="/images/{{ page.image }}" data-interchange="[/images/{{ page.image }}, (default)], [/images/{{ page.image }}@2x.png, (retina)]">
+    <img src="/images/{{ page.image }}.png" data-interchange="[/images/{{ page.image }}.png, (default)], [/images/{{ page.image }}@2x.png, (retina)]">
   </div>
 </section>
